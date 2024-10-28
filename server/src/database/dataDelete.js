@@ -9,7 +9,7 @@ const deleteAllProducts = async () => {
 
     const result = await Product.deleteMany({});
 
-    console.log(`${result.deletedCount} продукт(и) видалено.`);
+    console.log(`${result.deletedCount} продукт(и) успішно видалено.`);
   } catch (error) {
     console.error("Помилка при видаленні продуктів:", error.message);
   } finally {

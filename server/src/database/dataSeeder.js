@@ -595,7 +595,7 @@ const seedDatabase = async () => {
   try {
     await connectionDB();
 
-    let iterator = 1;
+    let successfulCount = 0;
     for (const data of seedData) {
       const { error } = validateProduct(data);
       if (error) {
@@ -612,18 +612,16 @@ const seedDatabase = async () => {
           en: data.description.en
         },
         category: data.category,
-        imageUrl: data.imageUrl || "/uploads/standard_product.jpg"
+        imageUrl:
+          data.imageUrl || "http://localhost:3001/uploads/standard_product.jpg"
       });
 
       await newProduct.save();
-      console.log(
-        `Продукт №${iterator} '${data.description.ua}' успішно додано`
-      );
-      iterator++;
+      successfulCount++;
     }
 
     mongoose.connection.close();
-    console.log("З'єднання з базою закрито");
+    console.log(`${successfulCount} продукт(и) успішно додано.`);
   } catch (error) {
     console.error("Помилка заповнення бази даних:", error);
     process.exit(1);
