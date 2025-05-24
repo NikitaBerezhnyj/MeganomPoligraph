@@ -16,7 +16,8 @@ The repository is available in [Ukrainian](#меганом-поліграф-php-
 
    ```bash
    git clone https://github.com/NikitaBerezhnyj/MeganomPoligraph.git
-   cd MeganomPoligraph_PHP
+
+   cd MeganomPoligraph/MeganomPoligraph_PHP
    ```
 
 2. Встановлення залежностей
@@ -214,7 +215,8 @@ make clean
 
    ```bash
    git clone https://github.com/NikitaBerezhnyj/MeganomPoligraph.git
-   cd MeganomPoligraph_PHP
+
+   cd MeganomPoligraph/MeganomPoligraph_PHP
    ```
 
 2. Install dependencies
