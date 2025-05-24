@@ -1,0 +1,54 @@
+<div class="centered-full-height mb-3 mt-5 pt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6">
+        <h1 class="mb-3">{{ "analytics.analytics-header" | translate }}</h1>
+        <div class="analytics-select mb-3">
+          <label for="timePeriod">{{ "analytics.analytics-select-time-period" | translate }}</label>
+          <select id="timePeriod" [(ngModel)]="selectedPeriod" (change)="onPeriodChange()">
+            <option value="all">
+              {{ "analytics.analytics-all-time" | translate }}
+            </option>
+            <option value="year">
+              {{ "analytics.analytics-year" | translate }}
+            </option>
+            <option value="month">
+              {{ "analytics.analytics-month" | translate }}
+            </option>
+          </select>
+        </div>
+        <h3>{{ "analytics.analytics-users-header" | translate }}</h3>
+        <p>
+          <b>{{ "analytics.analytics-users" | translate }}:</b>
+          {{ this.totalUsers }}
+        </p>
+        <p>
+          <b>{{ "analytics.analytics-new-users" | translate }}:</b>
+          {{ this.newUsers }}
+        </p>
+        <hr />
+        <h3>{{ "analytics.analytics-requests-header" | translate }}</h3>
+        <p>
+          <b>{{ "analytics.analytics-requests" | translate }}:</b>
+          {{ this.totalRequests }}
+        </p>
+        <b>
+          <a routerLink="/admin/analytics/requests">
+            {{ "analytics.analytics-requests-link" | translate }}
+          </a>
+        </b>
+      </div>
+      <div class="col-12 col-md-6">
+        <ngx-charts-pie-chart
+          [results]="data"
+          [scheme]="colorScheme"
+          [view]="[400, 400]"
+          style="width: 100%; height: 300px"
+          [doughnut]="false"
+          [legend]="false"
+        >
+        </ngx-charts-pie-chart>
+      </div>
+    </div>
+  </div>
+</div>

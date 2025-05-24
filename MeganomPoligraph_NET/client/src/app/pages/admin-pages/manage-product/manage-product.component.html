@@ -1,0 +1,115 @@
+<div class="product-manage-container">
+  <div class="full-height mb-3 mt-5 pt-5">
+    <div class="container">
+      <h1 class="mb-4">
+        {{
+          isEditMode
+            ? ("manage-product.edit-product-header" | translate)
+            : ("manage-product.create-product-header" | translate)
+        }}
+      </h1>
+      <div class="flex-column-reverse flex-lg-row row">
+        <div class="col-12 col-lg-6">
+          <div class="mb-3">
+            <div class="category-header mb-1">
+              <label for="categories">
+                {{ "manage-product.manage-product-category-label" | translate }}:
+              </label>
+              <span class="danger-text" *ngIf="validationErrors.includes('category')">{{
+                "manage-product.manage-product-category-error" | translate
+              }}</span>
+            </div>
+            <ng-select
+              [items]="categoryOptions"
+              bindLabel="label"
+              bindValue="value"
+              [multiple]="true"
+              [(ngModel)]="selectedCategories"
+              (change)="onCategoryChange()"
+              placeholder="{{ 'manage-product.manage-product-category-label' | translate }}"
+            >
+            </ng-select>
+          </div>
+          <p class="text-danger mb-1" *ngIf="validationErrors.includes('description')">
+            {{ "manage-product.manage-product-category-error" | translate }}
+          </p>
+          <div class="localization-group mb-3">
+            <div class="localization-button-group">
+              <button (click)="setLanguage('ua')" [class.active]="activeLanguage === 'ua'">
+                Ua
+              </button>
+              <button (click)="setLanguage('ru')" [class.active]="activeLanguage === 'ru'">
+                Ru
+              </button>
+              <button (click)="setLanguage('en')" [class.active]="activeLanguage === 'en'">
+                En
+              </button>
+            </div>
+            <div class="localization-input" *ngFor="let lang of languages">
+              <app-rich-textarea
+                *ngIf="activeLanguage === lang"
+                [id]="lang + '-description'"
+                [placeholder]="getPlaceholder(lang)"
+                [(text)]="localization[lang]"
+                (textChange)="onDescriptionChange($event, lang)"
+              >
+              </app-rich-textarea>
+            </div>
+          </div>
+
+          <p
+            *ngIf="requestResult"
+            [ngClass]="{
+              'success-text': !isRequestError,
+              'danger-text': isRequestError
+            }"
+          >
+            {{ requestResult | translate }}
+          </p>
+
+          <button class="btn-primary" (click)="saveProduct()">
+            {{
+              isEditMode
+                ? ("manage-product.edit-product-button" | translate)
+                : ("manage-product.create-product-button" | translate)
+            }}
+          </button>
+        </div>
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+          <div
+            class="image-upload-container"
+            (click)="selectImage()"
+            (dragover)="onDragOver($event)"
+            (dragleave)="onDragLeave($event)"
+            (drop)="onDrop($event)"
+          >
+            <input
+              type="file"
+              #fileInput
+              accept="image/*"
+              (change)="onFileSelected($event)"
+              hidden
+            />
+
+            <div *ngIf="!selectedImage" class="upload-placeholder">
+              <i class="bi bi-cloud-upload-fill"></i>
+              <p *ngIf="!validationErrors.includes('image')">
+                {{ "manage-product.manage-product-image" | translate }}
+              </p>
+              <p *ngIf="validationErrors.includes('image')" class="danger-text">
+                {{ "manage-product.manage-product-image-error" | translate }}
+              </p>
+            </div>
+
+            <img
+              *ngIf="selectedImage"
+              [src]="selectedImage"
+              class="preview-image"
+              alt="Обране зображення"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

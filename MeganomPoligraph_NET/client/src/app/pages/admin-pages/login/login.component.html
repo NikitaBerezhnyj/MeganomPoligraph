@@ -1,0 +1,46 @@
+<div class="admin-login-container" id="login-form">
+  <div class="login-card p-4 rounded shadow">
+    <h2 class="text-center mb-4">{{ "login.login-header" | translate }}</h2>
+    <form id="loginForm" class="needs-validation" (ngSubmit)="submitForm()" novalidate>
+      <div class="mb-3">
+        <label for="login" class="form-label">{{ "login.login-login" | translate }}</label>
+        <input
+          type="text"
+          class="form-control"
+          name="login"
+          id="login"
+          placeholder="{{ 'login.login-login' | translate }}"
+          [(ngModel)]="login"
+          required
+        />
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">{{ "login.login-password" | translate }}</label>
+        <input
+          [type]="isPasswordVisible ? 'text' : 'password'"
+          class="form-control"
+          name="password"
+          id="password"
+          placeholder="{{ 'login.login-password' | translate }}"
+          [(ngModel)]="password"
+          required
+        />
+      </div>
+      <div class="mb-3 form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="showPassword"
+          (change)="onPasswordVisibilityChange($event)"
+        />
+        <label class="form-check-label" for="showPassword">{{
+          "login.login-show-password" | translate
+        }}</label>
+      </div>
+      <p class="submit-result"></p>
+      <button type="submit" [disabled]="isButtonDisabled" class="btn btn-primary w-100">
+        {{ "login.login-button" | translate }}
+      </button>
+    </form>
+  </div>
+</div>

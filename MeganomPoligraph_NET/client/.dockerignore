@@ -1,0 +1,6 @@
+.vscode
+README.md
+.gitignore
+Dockerfile
+node_modules
+environments/environment.ts

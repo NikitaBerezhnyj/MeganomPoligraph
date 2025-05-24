@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /example
+Allow: /example/paper-bags-laminated
+Allow: /example/logo-bags
+Allow: /example/cardboard-bags
+Allow: /example/kraft-bags
+Allow: /example/gift-bags
+Allow: /example/branded-folders
+Allow: /example/designer-paper-bags
+Allow: /example/uv-lacquer-bags
+Allow: /example/embossed-bags
+Allow: /contacts
+Allow: /delivery
+
+Sitemap: https://www.meganom-polygraph.com.ua/sitemap.xml

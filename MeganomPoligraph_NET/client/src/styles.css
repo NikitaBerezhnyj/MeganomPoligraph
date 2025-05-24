@@ -1,0 +1,276 @@
+:root {
+  /* Colors */
+  --main-color: #ffffff;
+  --second-color: #f5f5f5;
+  --accent-color: #2498ee;
+  --hover-color: #1a75bb;
+  --text-color: #333333;
+  --disable-color: #999999;
+  --dark-blue-color: #0a2941;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  /* Spaces */
+  /* Sizes */
+  /* monitor height - footer height - margin top - margin bottom - random number of pixel for more beautiful page view */
+  --full-height-size: calc(100dvh - 189px - 1rem - 1rem - 35px);
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../public/fonts/RobotoSlab.ttf");
+}
+
+* {
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-margin-top: 20px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--text-color);
+  background-color: var(--main-color);
+}
+
+::selection {
+  color: var(--text-color);
+  background: var(--accent-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 3.5em;
+  line-height: 1.5em;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 2.5em;
+  line-height: 1.4em;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 1.75em;
+  line-height: 1.3em;
+  margin-bottom: 14px;
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-bottom: 12px;
+}
+
+h5 {
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 1.1em;
+  line-height: 1.2em;
+  margin-bottom: 8px;
+}
+
+p {
+  color: var(--text-color);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--hover-color);
+  text-decoration-color: var(--hover-color);
+}
+
+input,
+textarea {
+  border: var(--text-color) solid 1px;
+  outline: none;
+  border-radius: 8px !important;
+  padding: 8px 12px;
+  transition: all 0.5s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--accent-color);
+}
+
+textarea {
+  resize: none;
+}
+
+select {
+  padding: 8px 12px;
+  margin-top: 5px;
+  border: 1px solid var(--second-color);
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-radius: 8px !important;
+  padding: 8px 12px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: var(--disable-color);
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none !important;
+}
+
+pre {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+pre p {
+  margin-bottom: 8px;
+}
+
+i {
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px !important;
+}
+
+.btn-primary {
+  color: var(--main-color) !important;
+  background-color: var(--accent-color) !important;
+  transition: all 0.5s ease;
+}
+
+.btn-danger {
+  color: var(--main-color) !important;
+  background-color: var(--danger-color) !important;
+  transition: all 0.5s ease;
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+  transform: scale(1.01);
+  filter: opacity(0.75);
+}
+
+.full-height {
+  min-height: var(--full-height-size);
+  height: 100%;
+}
+
+.centered-full-height {
+  min-height: var(--full-height-size);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.danger-text {
+  color: var(--danger-color) !important;
+}
+
+.success-text {
+  color: var(--success-color) !important;
+}
+
+.warning-text {
+  color: var(--warning-color) !important;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px !important;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .full-height {
+    margin-top: 95px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px !important;
+  }
+
+  h1 {
+    font-size: 2.8em;
+  }
+
+  h2 {
+    font-size: 2.2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  h4 {
+    font-size: 1.3em;
+  }
+
+  h5 {
+    font-size: 1.1em;
+  }
+
+  h6 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px !important;
+  }
+}

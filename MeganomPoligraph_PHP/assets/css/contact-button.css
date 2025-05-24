@@ -1,0 +1,51 @@
+.contact-button {
+    position: fixed;
+    bottom: 64px;
+    right: 24px;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 0.5px solid var(--main-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+.contact-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.contact-button:hover {
+    transform: scale(1.05);
+    border: 0.5px solid var(--main-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-button:active {
+    border: 0.5px solid var(--main-color) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-button:focus {
+    border: 0.5px solid var(--main-color) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 720px) {
+    .contact-button {
+        padding: 16px;
+        border-radius: 100%;
+    }
+
+    .contact-button span {
+        display: none;
+    }
+
+    .contact-button img {
+        margin-right: 0;
+    }
+}

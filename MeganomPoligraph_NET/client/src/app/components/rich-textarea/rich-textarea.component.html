@@ -1,0 +1,25 @@
+<div class="custom-textarea">
+  <div class="toolbar">
+    <button (click)="applyFormatting('h5')">
+      <i class="bi bi-file-earmark-text"></i>
+    </button>
+    <button (click)="applyFormatting('b')">
+      <i class="bi bi-type-bold"></i>
+    </button>
+    <button (click)="applyFormatting('br')">
+      <i class="bi bi-arrow-down-short"></i>
+    </button>
+    <button (click)="clearStyles()">
+      <i class="bi bi-stars"></i>
+    </button>
+  </div>
+  <div
+    #editor
+    [id]="id"
+    class="editor"
+    contenteditable="true"
+    (input)="onEditorInput($event)"
+    [innerHTML]="sanitizedText"
+    [attr.placeholder]="placeholder"
+  ></div>
+</div>

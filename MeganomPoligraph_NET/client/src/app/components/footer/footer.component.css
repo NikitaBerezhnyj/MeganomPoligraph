@@ -1,0 +1,18 @@
+.footer-container {
+  background-color: var(--accent-color);
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.footer-wrap p,
+.footer-wrap a {
+  color: var(--main-color);
+}
+
+.footer-wrap a {
+  text-decoration: underline;
+}

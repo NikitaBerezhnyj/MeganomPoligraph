@@ -1,0 +1,158 @@
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+
+.product-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: var(--main-color);
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  position: relative;
+}
+
+.product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-card-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.product-image img {
+  width: 100px;
+  /* Можна змінити відповідно до бажаного розміру */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.product-image img:hover {
+  filter: opacity(0.8);
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.product-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product-actions button {
+  width: 100%;
+}
+
+/* .product-actions button {
+    background-color: var(--danger-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+} */
+
+/* .product-actions button:hover {
+    background-color: darkred;
+} */
+
+/*  */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  padding: 20px;
+}
+
+.delete-product-modal {
+  background: var(--main-color);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 100%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.delete-product-modal h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.create-product-modal select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid var(--second-color);
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 576px) {
+  .products-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .product-header-actions {
+    flex-direction: row-reverse;
+  }
+}

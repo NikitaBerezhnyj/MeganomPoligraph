@@ -1,205 +1,115 @@
-# Meganom Poligraph
+# MeganomPolygraph
 
-#### Repository translates: [українська :ukraine:](#meganom-poligraph-ukraine), [english :uk:](#meganom-poligraph-uk)
+The repository is available in [Ukrainian](#меганом-поліграф-ukraine) and [English](#meganom-poligraph-uk)
 
-## Meganom Poligraph :ukraine:
+## Меганом Поліграф :ukraine:
 
-### Опис проекту
+Цей проєкт є монорепозиторієм, який містить дві версії сайту для поліграфічної компанії Меганом Поліграф:
 
-Цей репозиторій містить код для веб-сайту поліграфічної компанії "Меганом Поліграф", яка спеціалізується на виготовленні пакетів. Сайт розроблено з використанням MERN стеку (MongoDB, Express.js, React.js, Node.js) та включає як frontend, так і backend частини.
+- **MERN версія** (React, Express, Node.js, MongoDB)
+- **PHP версія** (PHP, JavaScript, CSS, JSON)
+- **NET версії** (Angular + C# + ASP.NET)
 
-### Особливості
+Ви можете знайти інструкції та документацію для кожної версії в окремих каталогах.
 
-- Повнофункціональний веб-сайт для поліграфічної компанії
-- Каталог продукції з можливістю фільтрації та пошуку
-- Форма замовлення для клієнтів
-- Інформаційні сторінки про компанію та послуги
-- Кастомна адмін-панель для управління контентом та замовленнями
+### Структура проєкту
 
-### Технології
+Проєкт складається з трьох основних директорій:
 
-- **_Frontend:_** React.js
-- **_Backend:_** Node.js з Express.js
-- **_База даних:_** MongoDB
-- **_Додаткові бібліотеки:_**
-  - react-router-dom
-  - react-bootstrap
-  - bootstrap
-  - i18next
-  - react-i18next
-  - axios
-  - react-icons
-  - react-select
-  - express
-  - cors
-  - helmet
-  - joi
-  - jsonwebtoken
-  - bcrypt
-  - nodemailer
-  - multer
-  - mongoose
-  - validate-image-type
-  - @vitalets/google-translate-api
+#### MeganomPoligraph_MERN
 
-### Встановлення
+Ця версія сайту використовує стек MERN (MongoDB, Express, React, Node.js). Вона включає як серверну частину, так і клієнтську, з підтримкою статичних файлів та MongoDB для зберігання даних.
 
-1. Клонуйте репозиторій:
+- **client**: Клієнтська частина на React
+- **server**: Серверна частина на Node.js та Express
 
-   ```bash
-   git clone https://github.com/NikitaBerezhnyj/Meganom_Poligraph.git
-   ```
+Для налаштування та запуску цієї версії перейдіть до [README файлу в каталозі MeganomPoligraph_MERN](./MeganomPoligraph_MERN/README.md).
 
-2. Встановіть залежності для backend:
+#### MeganomPoligraph_PHP
 
-   ```bash
-   cd server
-   npm install
-   ```
+Ця версія сайту побудована на PHP і використовує статичні файли зображень, JavaScript, CSS та JSON для обробки тексту та локалізації.
 
-3. Встановіть залежності для frontend:
+Для налаштування та запуску цієї версії перейдіть до [README файлу в каталозі MeganomPoligraph_PHP](./MeganomPoligraph_PHP/README.md).
 
-   ```bash
-   cd client
-   npm install
-   ```
+#### MeganomPoligraph_NET
 
-4. Налаштуйте змінні середовища:
+Ця версія сайту реалізована з використанням Angular для клієнтської частини та ASP.NET + C# для серверної логіки. Архітектура проєкту передбачає чіткий розподіл між frontend та backend частинами.
 
-   Створіть файл `.env` в теці `server` та заповнити необхідні середовища вказані в example.env
+- **client**: Клієнтська частина на Angular
+- **server**: Серверна частина на ASP.NET Core
 
-### Запуск проекту
+Для налаштування та запуску цієї версії перейдіть до [README файлу в каталозі MeganomPoligraph_NET](./MeganomPoligraph_NET/README.md).
 
-1. Запустіть backend сервер:
+### Відмінності між PHP та MERN версіями
 
-   ```bash
-   cd server
-   npm run dev
-   ```
+Усі версії сайту виконують однакову функцію – надають інформацію про товари та послуги поліграфічної компанії **Меганом Поліграф**, однак вони реалізовані з використанням різних технологічних стеків, що впливає на архітектуру, спосіб керування контентом та зручність адміністрування.
 
-2. В іншому терміналі запустіть frontend:
+Коротко про ключові відмінності:
 
-   ```bash
-   cd client
-   npm run dev
-   ```
+| Характеристика         | PHP версія               | MERN версія             | .NET версія               |
+| ---------------------- | ------------------------ | ----------------------- | ------------------------- |
+| Архітектура            | Багатосторінковий сайт   | Односторінковий додаток | Багатосторінковий додаток |
+| Серверний стек         | PHP + JSON               | Node.js + Express       | ASP.NET Core + C#         |
+| Клієнтський стек       | HTML + JS + CSS          | React (SPA)             | Angular Universal (SSR)   |
+| База даних             | JSON-файли               | MongoDB                 | PostgreSQL                |
+| Оновлення контенту     | Ручне редагування файлів | Через адмін-панель      | Через адмін-панель        |
+| Панель адміністрування | Відсутня                 | Присутня (прихована)    | Присутня (прихована)      |
 
-3. Відкрийте браузер і перейдіть за адресою `http://localhost:5173`
+Усі версії підтримують локалізацію, працюють з тими ж даними та зображеннями, але підхід до управління контентом і динамічності сайту кардинально різний.
 
-### Збірка проєкту каталогу розгортання
-
-1. Виконайте команду make в кореневій теці:
-
-   ```bash
-   make
-   ```
-
-Отримаєте теку deploy, яку можна завантажити на хостинг
-
-### Адмін-панель
-
-Для доступу до адмін-панелі використовуйте наступні кроки:
-
-1. Перейдіть за адресою `http://localhost:5173/admin`
-2. Введіть облікові дані адміністратора
+---
 
 ## Meganom Poligraph :uk:
 
-### Project description.
+This project is a monorepository that contains three versions of a website for the printing company **Meganom Poligraph**:
 
-This repository contains the code for the website of Meganom Poligraph, a printing company that specializes in the production of packages. The site is developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) and includes both frontend and backend parts.
+- **MERN version** (React, Express, Node.js, MongoDB)
+- **PHP version** (PHP, JavaScript, CSS, JSON)
+- **.NET version** (Angular + C# + ASP.NET)
 
-### Features
+You can find instructions and documentation for each version in separate directories.
 
-- Fully functional website for a printing company
-- Product catalog with the ability to filter and search
-- Order form for customers
-- Information pages about the company and services
-- Custom admin panel for content and order management
+### Project Structure
 
-### Technologies.
+The project consists of three main directories:
 
-- **_Frontend:_** React.js
-- **_Backend:_** Node.js with Express.js
-- **_Database:_** MongoDB
-- **_Additional libraries:_**
-  - react-router-dom
-  - react-bootstrap
-  - bootstrap
-  - i18next
-  - react-i18next
-  - axios
-  - react-icons
-  - react-select
-  - express
-  - cors
-  - helmet
-  - joi
-  - jsonwebtoken
-  - bcrypt
-  - nodemailer
-  - multer
-  - mongoose
-  - validate-image-type
-  - @vitalets/google-translate-api
+#### MeganomPoligraph_MERN
 
-### Installation
+This version of the site uses the MERN stack (MongoDB, Express, React, Node.js). It includes both the frontend and the backend, supporting static files and MongoDB for data storage.
 
-1. Clone the repository:
+- **client**: Frontend part in React
+- **server**: Backend part in Node.js and Express
 
-   ```bash
-   git clone https://github.com/NikitaBerezhnyj/Meganom_Poligraph.git
-   ```
+To set up and run this version, go to the [README file in the MeganomPoligraph_MERN directory](./MeganomPoligraph_MERN/README.md).
 
-2. Install dependencies for the backend:
+#### MeganomPoligraph_PHP
 
-   ```bash
-   cd server
-   npm install
-   ```
+This version of the site is built using PHP and utilizes static image files, JavaScript, CSS, and JSON for text processing and localization.
 
-3. Install the dependencies for the frontend:
+To set up and run this version, go to the [README file in the MeganomPoligraph_PHP directory](./MeganomPoligraph_PHP/README.md).
 
-   ```bash
-   cd client
-   npm install
-   ```
+#### MeganomPoligraph_NET
 
-4. Configure environment variables:
+This version of the site is implemented using Angular for the frontend and ASP.NET + C# for the backend logic. The project architecture ensures a clear separation between the frontend and backend parts.
 
-   Create an `.env' file in the `server' folder and fill in the required environments specified in example.env
+- **client**: Frontend part in Angular
+- **server**: Backend part in ASP.NET Core
 
-### Starting the project.
+To set up and run this version, go to the [README file in the MeganomPoligraph_NET directory](./MeganomPoligraph_NET/README.md).
 
-1. Start the backend server:
+### Differences Between the PHP, MERN, and .NET Versions
 
-   ```bash
-   cd server
-   npm run dev
-   ```
+All versions of the site serve the same purpose – providing information about the products and services of the printing company **Meganom Poligraph**. However, they are implemented using different technology stacks, which affects the architecture, content management method, and administrative convenience.
 
-2. In another terminal, run the frontend:
+Key differences:
 
-   ```bash
-   cd client
-   npm run dev
-   ```
+| Characteristic  | PHP Version         | MERN Version            | .NET Version            |
+| --------------- | ------------------- | ----------------------- | ----------------------- |
+| Architecture    | Multi-page website  | Single-page application | Multi-page application  |
+| Server stack    | PHP + JSON          | Node.js + Express       | ASP.NET Core + C#       |
+| Frontend stack  | HTML + JS + CSS     | React (SPA)             | Angular Universal (SSR) |
+| Database        | JSON files          | MongoDB                 | PostgreSQL              |
+| Content updates | Manual file editing | Via admin panel         | Via admin panel         |
+| Admin panel     | Absent              | Present (hidden)        | Present (hidden)        |
 
-3. Open a browser and go to `http://localhost:5173`
-
-### Building the deployment directory project
-
-1. Run the make command in the root folder:
-
-   ```bash
-   make
-   ```
-
-Get the deploy folder, which can be uploaded to the hosting
-
-### Admin panel
-
-To access the admin panel, use the following steps:
-
-1. Go to `http://localhost:5173/admin`
-2. Enter your administrator credentials
+All versions support localization, work with the same data and images, but the approach to content management and site dynamics is significantly different.

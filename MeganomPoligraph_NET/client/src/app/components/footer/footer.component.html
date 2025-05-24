@@ -1,0 +1,38 @@
+<div *ngIf="isFooterVisible">
+  <footer class="footer footer-container pt-4 pb-3">
+    <div class="container-fluid px-4 footer-wrap">
+      <ng-container *ngIf="!isAdmin">
+        <div>
+          <p>
+            {{ "footer.phone" | translate }}
+            <br />
+            <a href="tel:+380992340083">+380 (99) 234 0083</a>
+            <br />
+            <a href="tel:+380679308951">+380 (67) 930 8951</a>
+          </p>
+          <p>
+            {{ "footer.mail" | translate }}
+            <br />
+            <a href="mailto:chief&#64;meganom-polygraph.com.ua"
+              >chief&#64;meganom-polygraph.com.ua</a
+            >
+          </p>
+        </div>
+        <p>меганом-поліграф ©.</p>
+      </ng-container>
+
+      <ng-container *ngIf="isAdmin">
+        <div>
+          <br />
+          <p>Ви увійшли як адміністратор.</p>
+          <p>
+            Корисні посилання: <br />
+            <a href="/" class="footer-link">На головну сторінку</a> <br />
+            <a href="/admin" class="footer-link">Адміністраторська панель</a>
+          </p>
+        </div>
+        <p>меганом-поліграф ©.</p>
+      </ng-container>
+    </div>
+  </footer>
+</div>

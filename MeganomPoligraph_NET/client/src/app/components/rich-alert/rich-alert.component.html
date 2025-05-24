@@ -1,0 +1,58 @@
+<div
+  *ngIf="isVisible"
+  class="rich-alert-overlay"
+  [ngClass]="{ 'rich-alert-overlay-dark': overlay }"
+  (click)="overlayClick($event)"
+>
+  <div
+    class="rich-alert-container"
+    [ngClass]="'rich-alert-' + type"
+    [@alertAnimation]="animationState"
+  >
+    <div class="rich-alert-header" *ngIf="title">
+      <div class="rich-alert-title">
+        <ng-container *ngIf="translateTitle; else plainTitle">
+          {{ title | translate }}
+        </ng-container>
+        <ng-template #plainTitle>{{ title }}</ng-template>
+      </div>
+      <button *ngIf="showCloseButton" class="rich-alert-close-btn" (click)="close()">
+        &times;
+      </button>
+    </div>
+    <div class="rich-alert-content">
+      <div class="rich-alert-icon" *ngIf="showIcon">
+        <i [ngClass]="iconClass"></i>
+      </div>
+      <div class="rich-alert-message">
+        <ng-container *ngIf="translateMessage; else plainMessage">
+          {{ message | translate }}
+        </ng-container>
+        <ng-template #plainMessage>{{ message }}</ng-template>
+      </div>
+    </div>
+    <div class="rich-alert-footer" *ngIf="showButtons">
+      <button
+        *ngIf="showConfirmButton"
+        class="rich-alert-btn rich-alert-confirm-btn"
+        [ngClass]="{ 'rich-alert-primary-btn': type === 'primary' }"
+        (click)="confirm()"
+      >
+        <ng-container *ngIf="translateConfirmText; else plainConfirmText">
+          {{ confirmText | translate }}
+        </ng-container>
+        <ng-template #plainConfirmText>{{ confirmText }}</ng-template>
+      </button>
+      <button
+        *ngIf="showCancelButton"
+        class="rich-alert-btn rich-alert-cancel-btn"
+        (click)="cancel()"
+      >
+        <ng-container *ngIf="translateCancelText; else plainCancelText">
+          {{ cancelText | translate }}
+        </ng-container>
+        <ng-template #plainCancelText>{{ cancelText }}</ng-template>
+      </button>
+    </div>
+  </div>
+</div>

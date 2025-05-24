@@ -1,0 +1,136 @@
+<div class="profile-container">
+  <div class="centered-full-height mb-3 mt-5 pt-5">
+    <div class="container">
+      <div class="profile-wrap">
+        <div *ngIf="adminData; else loading">
+          <h1 class="mb-5">{{ "profile.profile-header" | translate }}</h1>
+          <div class="profile-card">
+            <div class="profile-field">
+              <strong>{{ "profile.profile-name" | translate }}:</strong>
+              <div class="login-container">
+                <span *ngIf="!isEditingName">{{ adminData.name }}</span>
+                <button *ngIf="!isEditingName" (click)="isEditingName = true" class="btn-edit">
+                  <i class="bi bi-pencil-square"></i>
+                </button>
+              </div>
+              <div class="login-change-container">
+                <input *ngIf="isEditingName" type="text" [(ngModel)]="editedName" />
+                <div class="action-buttons">
+                  <button *ngIf="isEditingName" (click)="saveNameChange()" class="btn-primary">
+                    {{ "profile.profile-change-save" | translate }}
+                  </button>
+                  <button *ngIf="isEditingName" (click)="isEditingName = false" class="btn-danger">
+                    {{ "profile.profile-change-cancel" | translate }}
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="profile-field">
+              <strong>{{ "profile.profile-login" | translate }}:</strong>
+              <div class="login-container">
+                <span *ngIf="!isEditingLogin">{{ adminData.login }}</span>
+                <button *ngIf="!isEditingLogin" (click)="isEditingLogin = true" class="btn-edit">
+                  <i class="bi bi-pencil-square"></i>
+                </button>
+              </div>
+              <div class="login-change-container">
+                <input *ngIf="isEditingLogin" type="text" [(ngModel)]="editedLogin" />
+                <div class="action-buttons">
+                  <button *ngIf="isEditingLogin" (click)="saveLoginChange()" class="btn-primary">
+                    {{ "profile.profile-change-save" | translate }}
+                  </button>
+                  <button
+                    *ngIf="isEditingLogin"
+                    (click)="isEditingLogin = false"
+                    class="btn-danger"
+                  >
+                    {{ "profile.profile-change-cancel" | translate }}
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="profile-field">
+              <strong>{{ "profile.profile-role" | translate }}:</strong>
+              {{
+                adminData.role === "Admin"
+                  ? ("profile.profile-role-admin" | translate)
+                  : ("profile.profile-role-super-admin" | translate)
+              }}
+            </div>
+            <div class="mt-3 profile-actions">
+              <button class="btn-primary" (click)="openEditModal()">
+                {{ "profile.profile-change-password" | translate }}
+                <i class="bi bi-pencil-fill"></i>
+              </button>
+              <button class="btn-primary" (click)="logout()">
+                {{ "profile.profile-logout" | translate }}
+                <i class="bi bi-box-arrow-right"></i>
+              </button>
+              <button class="btn-danger" (click)="openDeleteModal()">
+                {{ "profile.profile-delete" | translate }}
+                <i class="bi bi-trash3-fill"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ng-template #loading>
+        <p>{{ "loading" | translate }}</p>
+      </ng-template>
+    </div>
+  </div>
+
+  <div class="modal-overlay" *ngIf="isEditModalOpen">
+    <div class="edit-profile-modal">
+      <h2>{{ "profile.profile-change-password-modal-header" | translate }}</h2>
+
+      <label>{{ "profile.profile-change-password-modal-current-password" | translate }}:</label>
+      <input
+        type="password"
+        placeholder="{{
+          'profile.profile-change-password-modal-new-password-placeholder' | translate
+        }}"
+        [(ngModel)]="editedPassword"
+      />
+
+      <label>{{ "profile.profile-change-password-modal-repeat-password" | translate }}:</label>
+      <input
+        type="password"
+        placeholder="{{
+          'profile.profile-change-password-modal-repeat-password-placeholder' | translate
+        }}"
+        [(ngModel)]="editedPasswordConfirm"
+      />
+
+      <p *ngIf="editedPasswordError" class="danger-text">
+        {{ editedPasswordError }}
+      </p>
+
+      <div class="modal-buttons">
+        <button class="btn-danger" (click)="closeEditModal()">
+          {{ "profile.profile-change-password-modal-cancel" | translate }}
+        </button>
+        <button class="btn-primary" (click)="savePasswordChange()" [disabled]="!isPasswordValid()">
+          {{ "profile.profile-change-password-modal-change" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" *ngIf="isDeleteModalOpen">
+    <div class="delete-account-modal">
+      <h2>{{ "profile.profile-delete-modal-header" | translate }}</h2>
+      <p>{{ "profile.profile-delete-modal-message" | translate }}</p>
+      <div class="modal-buttons">
+        <button class="btn-danger" (click)="closeDeleteModal()">
+          {{ "profile.profile-delete-modal-cancel" | translate }}
+        </button>
+        <button class="btn-primary" (click)="deleteAccount()">
+          {{ "profile.profile-delete-modal-delete" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

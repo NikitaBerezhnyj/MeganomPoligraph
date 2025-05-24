@@ -1,0 +1,168 @@
+@API_URL = http://localhost:5039/api
+@TEST_JWT = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiU3VwZXJBZG1pbiIsImV4cCI6MTc0Njg3NDI4NX0.dPThi8i3HjD1u5LbEe88QYXEFVDsLscXtIfMgREjW2A
+
+### Надсилання листів на пошту
+POST {{API_URL}}/send_mail
+Content-Type: application/json
+
+{
+    "name": "Нікіта Бережний",
+    "phone": "+380664122316",
+    "email": "kitnikita06@gmail.com",
+    "type": "Пакет",
+    "size": "14x21x8",
+    "material": "Крафт 110г.",
+    "print": "Pantone 1+0",
+    "embossing": "Матова",
+    "handles": "Стрічка репсова",
+    "circulation": 10000,
+    "notes": "Дзвоніть з 13:00 до 17:30",
+    "language": "ua"
+}
+
+### Надсилання листа з пустими значеннями
+POST {{API_URL}}/visit
+Content-Type: application/json
+
+{
+    "IPAddress": "192.168.1.1",
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+    "VisitTime": "2025-04-09T12:34:56.789Z"
+}
+
+### Надсилання листа з пустими значеннями
+POST {{API_URL}}/send_mail
+Content-Type: application/json
+
+{
+    "name": "Нікіта Бережний",
+    "phone": "+380664122316",
+    "email": "kitnikita06@gmail.com",
+    "type": null,
+    "size": null,
+    "material": null,
+    "print": null,
+    "embossing": null,
+    "handles": null,
+    "circulation": 1,
+    "notes": null,
+    "language": "ua"
+}
+
+### Отримання всіх продуктів
+GET {{API_URL}}/products
+
+### Отримання продукту по id
+GET {{API_URL}}/products/66
+
+### Отримання всіх продуктів по категорії
+GET {{API_URL}}/products/category/logo-bags
+
+### Додати новий продукт
+POST {{API_URL}}/products
+Content-Type: application/json
+Authorization: Bearer {{TEST_JWT}}
+
+{
+    "imageUrl": "https://example.com/image.jpg",
+    "isLocked": false,
+    "productCategories": ["paper-bags-laminated", "logo-bags"],
+    "productDescriptions": {
+        "uk": "Це тестовий опис продукту українською.",
+        "ru": "Это тестовое описание продукта на русском.",
+        "en": "This is a test product description in English."
+    }
+}
+
+### Редагувати старий продукт (по id)
+PUT {{API_URL}}/products/67
+Content-Type: application/json
+Authorization: Bearer {{TEST_JWT}}
+
+{
+    "imageUrl": "https://example.com/image.jpg",
+    "isLocked": false,
+    "productCategories": ["paper-bags-laminated", "logo-bags"],
+    "productDescriptions": {
+        "uk": "Це тестовий оновлений опис продукту українською.",
+        "ru": "Это тестовое обновенноє описание продукта на русском.",
+        "en": "This is a updated test product description in English."
+    }
+}
+
+### Видалити старий продукт (по id)
+DELETE {{API_URL}}/products/5
+Authorization: Bearer {{TEST_JWT}}
+
+### Отримання всіх адміністраторів
+GET {{API_URL}}/admin
+Authorization: Bearer {{TEST_JWT}}
+
+### Отримання конкретного адміністратора (по id)
+GET {{API_URL}}/admin/3
+Authorization: Bearer {{TEST_JWT}}
+
+### Отримання всіх запитів
+GET {{API_URL}}/statistics/requests
+Authorization: Bearer {{TEST_JWT}}
+
+### Реєстрація нового адміністратора
+POST {{API_URL}}/admin/register
+Content-Type: application/json
+Authorization: Bearer {{TEST_JWT}}
+
+{
+    "login": "newAdmin",
+    "password": "newAdmin",
+    "role": "Admin"
+}
+
+### Вхід в систему
+POST {{API_URL}}/admin/login
+Content-Type: application/json
+
+{
+    "login": "admin",
+    "password": "admin"
+}
+
+### Оновити логін адміністратора (по id)
+PUT {{API_URL}}/admin/2
+Content-Type: application/json
+Authorization: Bearer {{TEST_JWT}}
+
+{
+    "login": "updated_admin"
+}
+
+### Оновлення статусу замовлення
+PUT {{API_URL}}/admin/request/32/status
+Content-Type: application/json
+Authorization: Bearer {{TEST_JWT}}
+
+{
+    "status": "Done"
+}
+
+### Оновити пароль адміністратора (по id)
+PUT {{API_URL}}/admin/2
+Content-Type: application/json
+Authorization: Bearer {{TEST_JWT}}
+
+{
+    "password": "12345"
+}
+
+### Оновити всі дані адміністратора (по id)
+PUT {{API_URL}}/admin/2
+Content-Type: application/json
+Authorization: Bearer {{TEST_JWT}}
+
+{
+    "login": "new_admin",
+    "password": "4321"
+}
+
+### Видалення адміністратора (по id)
+DELETE {{API_URL}}/admin/2
+Authorization: Bearer {{TEST_JWT}}

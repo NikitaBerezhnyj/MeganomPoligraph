@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "title": "Меганом Поліграф",
+    "title-admin": "Меганом Поліграф (Адмін)",
+    "keywords": "поліграфія, паперові пакети, картонні пакети, пакети з логотипом, подарункові пакети, крафт-пакети, пакети з тисненням, пакети з конгревом, дизайнерські пакети, пакети з УФ лаком, фірмові теки, пакети на замовлення, упаковка для бізнесу, екологічна упаковка, рекламні пакети, брендові пакети",
+    "home-page-description": "Меганом Поліграф — виробник якісних паперових та картонних пакетів великими та малими тиражами. Пакети з логотипом, подарункові пакети, крафт-пакети, пакети з тисненням та конгревом, дизайнерські пакети та інші послуги для вашого бізнесу. Пропонуємо продукцію на замовлення з конкурентними цінами та високою якістю.",
+    "about-page-description": "Виробництво та виготовлення пакетів в Києві на замовлення. Індивідуальний підхід, швидкі строки виконання замовлення - Меганом Поліграф.",
+    "delivery-page-description": "Доставка здійснюється по всій Україні.",
+    "example-page-description": "Типографія \"Меганом Поліграф\" - приклади робіт. Повний цикл послуг: підготовка дизайну та виробництво.",
+    "example-paper-bags-laminated-page-description": "Пакети з крейдованого паперу, щільністю 150 г/м², 170 г/м², 200 г/м², 250 г/м², вкриті глянцевою або матовою плівкою (матове або глянцеве ламінування). Друк офсетний. Дно та ручки зміцнені картоном 400 г/м². Ручки: шнур поліпропіленовий або поліефірний з наповненням, діаметр 5 мм",
+    "example-logo-bags-page-description": "Ця упаковка ідеально підходить для реклами. На пакети можна наносити логотип або будь-яке зображення. Брендовані паперові пакети працюють на підвищення іміджу компанії, підіймають впізнаваність бренду, кажуть про те, що компанія турбується про своїх клієнтів.",
+    "example-cardboard-bags-page-description": "Ми рекомендуємо, цей варіант пакетів, своїм клієнтам, для важкої продукції. Картонна упаковка міцна і дозволяє в ній носити верхній одяг, пляшки і т.п. і бути впевненим, що вона витримає вагу. При цьому, на целюлозному крейдованому картоні друк відповідає високій якості.",
+    "example-kraft-bags-page-description": "Брендовані крафт – пакети говорять про усвідомленість керівництва компанії, вигідно вирізняють вас від конкурентів і транслюють цінності вашого бренду. Пакети з крафту – екологічна упаковка, щільність паперу 80 г/м², 100 г/м², 110 г/м², 120 г/м², 170 г/м², бурого або білого кольору, з крученими ручками або шнуром 0.5 мм.",
+    "example-gift-bags-page-description": "Це візитівка вашого подарунку. Яскравий або стриманий дизайн створить чарівний настрій. В нас є великій вибір розмірів та макетів, під будь-який подарунок і на будь-яке свято або зустріч. Весь асортимент продукції можете дізнатись у наших менеджерів.",
+    "example-branded-folders-page-description": "Необхідні для обміну документами з клієнтами, участі в семінарах та конференціях. Фірмова тека використовується, як елемент реклами, на ній можна нанести QR код фірми, інформацію про послуги компанії або акції. Брендована тека – це важливий елемент стилю компанії.",
+    "example-designer-paper-bags-page-description": "Суттєво відрізняються від стандартних видів упаковки. Вони міцні і привертають увагу, створені, щоб підкреслити індивідуальність вашої фірми. Обираючи дизайнерський папір для пакету, треба звернути увагу на колір, фактуру і щільність. Мінімальний тираж 50 шт.",
+    "example-uv-lacquer-bags-page-description": "Стильний та креативний, притягує увагу та запам'ятовується на довго. На матову поверхню наноситься лак, який під дією ультрафіолету стає твердим і набуває глянцевої поверхні. Вибірковий УФ лак наносять на ті елементи в дизайні, які треба підкреслити або вигідно виділити. Дуже вирізняється вибірковий УФ лак на темних матових поверхнях.",
+    "example-page-embossed-bags-description": "Додадуть розкоші та елегантності вашій продукції. Незважаючи на свою доступність, вони мають дорогий вигляд з ефектним дизайном. Тиснення фольгою логотипу чи тексту на поверхню пакету відбувається за допомогою спеціальної фольги та нагрівальних матриць. Конгрев це процес відтворення рельєфного зображення на поверхні матеріалу (папері або картоні), за допомогою штампа і контрштампа. Мінімальний тираж 100 шт.",
+    "contacts-page-description": "Контакти типографії з виробництва пакетів: телефони, електронна пошта, адреса та месенджери."
+  },
+
+  "header": {
+    "brand": "Меганом Поліграф",
+    "home": "Головна",
+    "example": "Приклади робіт",
+    "contacts": "Контакти",
+    "about": "Про нас",
+    "delivery": "Доставка",
+
+    "admin-brand": "Меганом Поліграф (Адмін)",
+    "admin-home": "Головна",
+    "admin-analytics": "Статистика",
+    "admin-products": "Продукти",
+    "admin-admins": "Адміністратори",
+    "admin-profile": "Профіль"
+  },
+
+  "home": {
+    "home-hero-header": "Меганом Поліграф",
+    "home-hero-services": "Пакети паперові ламіновані ⋅ Пакети з логотипом ⋅ Крафт-пакети ⋅ Пакети подарункові ⋅ Пакети з тисненням і конгревом ⋅ Пакети з дизайнерського паперу ⋅ Пакети з вибірковим УФ лаком ⋅ Фірмові теки для документів",
+
+    "home-services-header": "Наші послуги",
+    "home-services-paper-bags-laminated-header": "Пакети паперові ламіновані",
+    "home-services-paper-bags-laminated-description": "Пакети під замовлення з крейдованого паперу ламіновані з мотузковими ручками",
+    "home-services-logo-bags-header": "Пакети з логотипом",
+    "home-services-logo-bags-description": "На рекламні пакети наносимо Ваш логотип або будь-яке зображення",
+    "home-services-cardboard-bags-header": "Пакети картонні",
+    "home-services-cardboard-bags-description": "Заказні картонні пакети витримують велику вагу і мають елегантний вигляд",
+    "home-services-kraft-bags-header": "Крафт-пакети",
+    "home-services-kraft-bags-description": "Пакети з крафту це екологічна упаковка за бюджетною ціною",
+    "home-services-gift-bags-header": "Пакети подарункові",
+    "home-services-gift-bags-description": "Ми українські виробники подарункових пакетів на всі свята",
+    "home-services-branded-folders-header": "Фірмові теки для документів",
+    "home-services-branded-folders-description": "Брендовані теки з тисненням або друком - є важливим елементом стилю компанії",
+    "home-services-designer-paper-bags-header": "Пакети з дизайнерського паперу",
+    "home-services-designer-paper-bags-description": "Пакети з дизайнерського паперу чи дизайнерського картону роблять методом висікання",
+    "home-services-uv-lacquer-bags-header": "Пакети з вибірковим УФ лаком",
+    "home-services-uv-lacquer-bags-description": "Пакет з УФ лаком буде вигідно підкреслювати логотип вашої компанії",
+    "home-services-embossed-bags-header": "Пакети з тисненням і конгревом",
+    "home-services-embossed-bags-description": "Тиснення і конгрев на пакетах додають унікальний вигляд",
+
+    "home-contact-form-header": "Зв'яжіться з нами",
+    "home-contact-form-name-label": "Ім'я",
+    "home-contact-form-name-placeholder": "Ім'я",
+    "home-contact-form-name-error": "Поле обов'язкове",
+    "home-contact-form-contact-error": "Вкажіть хоча б один контакт",
+    "home-contact-form-phone-label": "Телефон",
+    "home-contact-form-phone-placeholder": "Телефон",
+    "home-contact-form-phone-error": "Не правильний формат номеру",
+    "home-contact-form-mail-label": "Електронна пошта",
+    "home-contact-form-mail-placeholder": "E-mail",
+    "home-contact-form-mail-error": "Не правильний формат електронної пошти",
+
+    "home-contact-form-type-label": "Тип продукту",
+    "home-contact-form-type-options": {
+      "empty": "Оберіть тип продукту",
+      "bag": "Пакет",
+      "folder": "Тека"
+    },
+
+    "home-contact-form-size-label": "Розмір (ширина, висота, глибина)",
+    "home-contact-form-size-options": {
+      "empty": "Оберіть розмір",
+      "custom": "Ваш варіант"
+    },
+
+    "home-contact-form-material-label": "Матеріал",
+    "home-contact-form-material-options": {
+      "empty": "Оберіть матеріал",
+      "paper": "Папір крейдований 200 г.",
+      "cardboard": "Картон 210 г.",
+      "kraft": "Крафт 110 г.",
+      "custom": "Ваш варіант"
+    },
+
+    "home-contact-form-print-label": "Друк",
+    "home-contact-form-print-options": {
+      "empty": "Оберіть тип друку",
+      "pantone_1_0": "Pantone 1+0",
+      "pantone_2_0": "Pantone 2+0",
+      "pantone_3_0": "Pantone 3+0",
+      "pantone_4_0": "Pantone 4+0",
+      "custom": "Ваш варіант"
+    },
+
+    "home-contact-form-embossing-label": "Ламінація",
+    "home-contact-form-embossing-options": {
+      "empty": "Оберіть тип ламінації",
+      "matte": "Матова",
+      "glossy": "Глянцева",
+      "none": "Без ламінації"
+    },
+
+    "home-contact-form-handles-label": "Ручки",
+    "home-contact-form-handles-options": {
+      "empty": "Оберіть ручки",
+      "cord": "Шнур",
+      "ribbon_satin": "Стрічка атласна",
+      "ribbon_reps": "Стрічка репсова",
+      "none": "Без ручок"
+    },
+
+    "home-contact-form-message-label": "Залиште повідомлення",
+    "home-contact-form-message-placeholder": "Укажіть коментарі до замовлення",
+    "home-contact-form-message-error": "Поле обов'язкове",
+    "home-contact-form-button": "Надіслати повідомлення",
+    "home-contact-form-success": "Повідомлення відіслане :)",
+    "home-contact-form-error": "Вибачте... здається сталась помилка",
+    "home-contact-form-sending-error": "Сталася помилка при надсиланні листа"
+  },
+
+  "about": {
+    "about-header": "Про нас",
+    "about-paragraph-first": "З моменту заснування в 2000 році ми обрали вектор розвитку, якого успішно дотримуємося: паперові та картонні пакети нашого виробництва мають бути максимально хорошої якості. Ми не займаємося виготовленням пакетів за найнижчими цінами - ми робимо якісну продукцію за конкурентною ціною.",
+    "about-paragraph-second": "Володіючи власним виробництвом із сучасним обладнанням і контролем якості на всіх етапах виготовлення продукції, а також налагодженими, надійними зв'язками з українськими та зарубіжними постачальниками, ми можемо гарантувати нашим клієнтам вигідні умови співпраці та партнерські відносини на довгі роки.",
+    "about-paragraph-third": "Меганом Поліграф пропонує вам широкий вибір якісних паперових та картонних пакетів, які ідеально підходять для різноманітних цілей, будь то упаковка товарів, рекламна продукція або корпоративні подарунки. Наша продукція відзначається не лише високою якістю, а й стильним дизайном, який привертає увагу та підкреслює ваш бренд.",
+    "about-paragraph-fourth": "Основна відмінність нашої компанії від конкурентів у тому, що на сьогоднішній день продукція, яку ми випускаємо, має найкраще співвідношення ціна/якість на українському ринку. Це та інші переваги вже встигли оцінити багато клієнтів і наші постійні замовники."
+  },
+
+  "delivery": {
+    "delivery-header": "Доставка",
+    "delivery-kyiv": "м. Київ:",
+    "delivery-kyiv-paragraph-first": "Доставка продукції обговорюється індивідуально з менеджером.",
+    "delivery-kyiv-paragraph-second": "Час відвантаження продукції з 10:00 до 17:00 в робочі дні.",
+    "delivery-ukraine": "Україна:",
+    "delivery-ukraine-paragraph-first": "Доставка продукції в інші міста та регіони України здійснюється перевізником «Нова Пошта». Вартість доставки розраховується індивідуально згідно з тарифами перевізника, залежно від ваги, габаритів відправлення та регіону призначення. Оплата доставки здійснюється замовником при отриманні товару.",
+    "delivery-ukraine-paragraph-second": "Просимо ознайомитися з умовами доставки на сайті перевізника: <a href=\"https://novaposhta.ua/\" target=\"_blank\"> \"Нова Пошта\" </a>"
+  },
+
+  "example": {
+    "example-header": "Приклади робіт",
+    "example-description": "Ознайомтеся з прикладами нашої продукції, створеної в різних стилях і технологіях. Ми пропонуємо якісну упаковку та брендовані вироби на вибір: <a href='/example/paper-bags-laminated'>Ламіновані паперові пакети</a>, <a href='/example/logo-bags'>Фірмові пакети з логотипом</a>, <a href='/example/cardboard-bags'>Картонні пакети</a>, <a href='/example/kraft-bags'>Крафтові пакети</a>, <a href='/example/gift-bags'>Подарункові пакети</a>, <a href='/example/branded-folders'>Брендовані теки</a>, <a href='/example/designer-paper-bags'>Дизайнерські паперові пакети</a>, <a href='/example/uv-lacquer-bags'>Пакети з УФ-лаком</a>, <a href='/example/embossed-bags'>Пакети з тисненням</a>",
+
+    "example-paper-bags-laminated-header": "Пакети паперові ламіновані",
+    "example-paper-bags-laminated-description": "",
+    "example-logo-bags-header": "Пакети з логотипом",
+    "example-logo-bags-description": "",
+    "example-cardboard-bags-header": "Пакети картонні",
+    "example-cardboard-bags-description": "",
+    "example-kraft-bags-header": "Крафт-пакети",
+    "example-kraft-bags-description": "",
+    "example-gift-bags-header": "Пакети подарункові",
+    "example-gift-bags-description": "",
+    "example-branded-folders-header": "Фірмові теки для документів",
+    "example-branded-folders-description": "",
+    "example-designer-paper-bags-header": "Пакети з дизайнерського паперу",
+    "example-designer-paper-bags-description": "",
+    "example-uv-lacquer-bags-header": "Пакети з вибірковим УФ лаком",
+    "example-uv-lacquer-bags-description": "",
+    "example-embossed-bags-header": "Пакети з тисненням і конгревом",
+    "example-embossed-bags-description": ""
+  },
+
+  "contacts": {
+    "contacts-header": "Контакти",
+    "contacts-address-header": "Адреса: ",
+    "contacts-address-content": "м. Київ, вул. Юлії Здановської, 8-Б, офіс 319.",
+    "contacts-email-header": "Електронна пошта: ",
+    "contacts-name-first": "Ірина",
+    "contacts-name-second": "Тетяна",
+    "contacts-position": "Менеджер",
+    "contacts-phone": "Телефон: "
+  },
+
+  "error": {
+    "404-error-header": "Сторінку не знайдено",
+    "404-error-message": "На жаль, сторінка <strong>{url}</strong>, яку ви шукаєте, не існує або була переміщена.",
+    "403-error-header": "Доступ заборонений",
+    "403-error-message": "Вибачте, але у вас немає дозволу для доступу до сторінки <strong>{url}</strong>.",
+    "default-error-header": "Сталася помилка",
+    "default-error-message": "Щось пішло не так при спробі доступу до сторінки <strong>{url}</strong>.",
+    "error-standard-message": "Будь ласка, перевірте правильність введеної URL-адреси або скористайтеся опціями нижче.",
+    "error-home-button": "Повернутися на головну",
+    "error-back-button": "Повернутися назад"
+  },
+
+  "login": {
+    "login-header": "Вхід для адміністратора",
+    "login-login": "Логін",
+    "login-password": "Пароль",
+    "login-show-password": "Показати пароль",
+    "login-button": "Ввійти",
+    "login-validation-error": "Будь ласка, заповніть всі поля!",
+    "login-success": "Ви успішно увійшли в систему",
+    "login-error": "Помилка при вході! Спробуйте ще раз."
+  },
+
+  "dashboard": {
+    "dashboard-analytics": "Статистика",
+    "dashboard-products": "Продукти",
+    "dashboard-admins": "Адміністратори",
+    "dashboard-profile": "Профіль"
+  },
+
+  "analytics": {
+    "analytics-header": "Статистика",
+    "analytics-users-header": "Відвідувачі",
+    "analytics-users": "Загальна кількість відвідувачів",
+    "analytics-new-users": "Кількість нових відвідувачів",
+    "analytics-diagram-all-users": "Всі користувачі",
+    "analytics-diagram-new-users": "Нові користувачі",
+    "analytics-requests-header": "Замовлення",
+    "analytics-requests": "Кількість замовлень",
+    "analytics-requests-link": "Переглянути всі замовлення",
+    "analytics-select-time-period": "Оберіть період: ",
+    "analytics-all-time": "За весь час",
+    "analytics-year": "За рік",
+    "analytics-month": "За місяць"
+  },
+
+  "requests": {
+    "requests-header": "Замовлення",
+    "requests-newest": "Від новіших до старіших",
+    "requests-oldest": "Від старіших до новіших",
+    "requests-show-only-new": "Показувати тільки нові",
+    "requests-show-only-my": "Показувати тільки мої",
+    "requests-name": "Ім'я",
+    "requests-phone": "Телефон",
+    "requests-email": "Електронна пошта",
+    "requests-createdAt": "Дата створення",
+    "requests-language": "Мова",
+    "requests-view": "Деталі",
+    "requests-modal-header": "Деталі замовлення",
+    "requests-modal-language": "Мова",
+    "requests-modal-circulation": "Тираж",
+    "requests-modal-embossing": "Тиснення",
+    "requests-modal-size": "Розмір",
+    "requests-modal-material": "Матеріал",
+    "requests-modal-type": "Тип",
+    "requests-modal-print": "Друк",
+    "requests-modal-notes": "Примітки",
+    "requests-status-label": "Статус:",
+    "requests-status-new": "Нове",
+    "requests-status-in-progress": "В процесі",
+    "requests-status-done": "Виконано",
+    "requests-status-rejected": "Відхилено",
+
+    "requests-type-options": {
+      "bag": "Пакет",
+      "folder": "Тека"
+    },
+
+    "requests-size-options": {
+      "custom": "Ваш варіант"
+    },
+
+    "requests-material-options": {
+      "paper": "Папір крейдований 200 г.",
+      "cardboard": "Картон 210 г.",
+      "kraft": "Крафт 110 г."
+    },
+
+    "requests-print-options": {
+      "pantone_1_0": "Pantone 1+0",
+      "pantone_2_0": "Pantone 2+0",
+      "pantone_3_0": "Pantone 3+0",
+      "pantone_4_0": "Pantone 4+0"
+    },
+
+    "requests-embossing-options": {
+      "matte": "Матова",
+      "glossy": "Глянцева",
+      "none": "Без ламінації"
+    },
+
+    "requests-handles-options": {
+      "cord": "Шнур",
+      "ribbon_satin": "Стрічка атласна",
+      "ribbon_reps": "Стрічка репсова",
+      "none": "Без ручок"
+    },
+
+    "requests-not-specified": "Не вказано",
+    "requests-custom-value": "Власний варіант замовника",
+    "requests-not-selected": "Не обрано"
+  },
+
+  "products": {
+    "products-header": "Продукти",
+    "products-newest": "Від новіших до старіших",
+    "products-oldest": "Від старіших до новіших",
+    "products-add": "Додати",
+    "products-categories": "Категорії",
+    "products-categories-list": {
+      "paper-bags-laminated": "Пакети паперові ламіновані",
+      "logo-bags": "Пакети з логотипом",
+      "cardboard-bags": "Пакети картонні",
+      "kraft-bags": "Крафт-пакети",
+      "gift-bags": "Пакети подарункові",
+      "branded-folders": "Фірмові теки для документів",
+      "designer-paper-bags": "Пакети з дизайнерського паперу",
+      "uv-lacquer-bags": "Пакети з вибірковим УФ лаком",
+      "embossed-bags": "Пакети з тисненням і конгревом"
+    },
+    "products-edit": "Редагувати",
+    "products-delete": "Видалити",
+    "products-delete-modal-header": "Видалити продукт",
+    "products-delete-modal-text": "Ви впевнені, що хочете видалити цей продукт?",
+    "products-delete-modal-delete": "Так, видалити",
+    "products-delete-modal-cancel": "Ні, відмінити",
+    "products-error-lock": "Продукт заблоковано. Спробуйте пізніше."
+  },
+
+  "manage-product": {
+    "create-product-header": "Створити продукту",
+    "edit-product-header": "Редагувати продукт",
+    "manage-product-category-label": "Оберіть категорії",
+    "manage-product-categories": {
+      "paper-bags-laminated": "Пакети паперові ламіновані",
+      "logo-bags": "Пакети з логотипом",
+      "cardboard-bags": "Пакети картонні",
+      "kraft-bags": "Крафт-пакети",
+      "gift-bags": "Пакети подарункові",
+      "branded-folders": "Фірмові теки для документів",
+      "designer-paper-bags": "Пакети з дизайнерського паперу",
+      "uv-lacquer-bags": "Пакети з вибірковим УФ лаком",
+      "embossed-bags": "Пакети з тисненням і конгревом"
+    },
+    "manage-product-image": "Оберіть зображення",
+    "create-product-button": "Зберегти новий продукт",
+    "edit-product-button": "Зберегти оновлений продукт",
+    "manage-product-category-error": "* Необхідно обрати хоча б одну категорії",
+    "manage-product-description-error": "* Опис продукту на всіх мовах обов'язковий",
+    "manage-product-image-error": "* Зображення продукту обов'язкове",
+    "manage-product-response-success-add": "Продукт успішно створено",
+    "manage-product-response-success-edit": "Продукт успішно оновлено",
+    "manage-product-response-error-add": "Помилка при створенні продукту. Спробуйте ще раз пізніше",
+    "manage-product-response-error-edit": "Помилка при оновленні продукту. Спробуйте ще раз пізніше",
+    "manage-product-confirm-lock": "Час блокування продукту закінчився. Хочете продовжити на ще 30 хвилин?",
+    "manage-product-error-confirm-lock": "Продукт вже заблокований іншим користувачем. Спробуйте ще раз пізніше"
+  },
+
+  "admins": {
+    "admins-header": "Адміністратори",
+    "admins-add": "Додати",
+    "admins-delete": "Видалити",
+    "admins-login": "Логін",
+    "admins-name": "Ім'я",
+    "admins-role": "Роль",
+    "admins-role-admin": "Адміністратор",
+    "admins-role-super-admin": "Супер адміністратор",
+    "admins-login-self-identity": "Ти",
+    "admins-add-modal-header": "Додати адміністратора",
+    "admins-add-modal-login": "Логін",
+    "admins-add-modal-password": "Пароль",
+    "admins-add-modal-role": "Роль",
+    "admins-add-modal-role-admin": "Адміністратор",
+    "admins-add-modal-role-super-admin": "Супер адміністратор",
+    "admins-add-modal-cancel": "Скасувати",
+    "admins-add-modal-create": "Створити",
+    "admins-delete-modal-header": "Видалити адміністратора",
+    "admins-delete-modal-message": "Ви впевнені, що хочете видалити цього адміністратора?",
+    "admins-delete-modal-cancel": "Ні, скасувати",
+    "admins-delete-modal-delete": "Так, видалити"
+  },
+
+  "profile": {
+    "profile-header": "Профіль",
+    "profile-name": "Ім'я",
+    "profile-login": "Логін",
+    "profile-change-save": "Зберегти",
+    "profile-change-cancel": "Скасувати",
+    "profile-role": "Роль",
+    "profile-role-admin": "Адміністратор",
+    "profile-role-super-admin": "Супер адміністратор",
+    "profile-change-password": "Змінити пароль",
+    "profile-logout": "Вийти з акаунту",
+    "profile-delete": "Видалити акаунт",
+    "profile-change-password-modal-header": "Змінити пароль",
+    "profile-change-password-modal-current-password": "Новий пароль",
+    "profile-change-password-modal-repeat-password": "Підтвердження паролю",
+    "profile-change-password-modal-new-password-placeholder": "Введіть новий пароль",
+    "profile-change-password-modal-repeat-password-placeholder": "Повторіть новий пароль",
+    "profile-change-password-modal-empty-error": "Будь ласка, введіть пароль та його підтвердження",
+    "profile-change-password-modal-not-matching-error": "Паролі не співпадають",
+    "profile-change-password-modal-weak-error": "Пароль має бути не менше 8 символів та містити хоча б одну цифру, одну велику літеру та одну малу літеру",
+    "profile-change-password-modal-cancel": "Скасувати",
+    "profile-change-password-modal-change": "Зберегти",
+    "profile-delete-modal-header": "Видалити акаунт",
+    "profile-delete-modal-message": "Ви впевнені, що хочете видалити свій акаунт?",
+    "profile-delete-modal-cancel": "Ні, скасувати",
+    "profile-delete-modal-delete": "Так, видалити"
+  },
+
+  "footer": {
+    "phone": "Телефони:",
+    "mail": "Електронна пошта:"
+  }
+}

@@ -1,0 +1,87 @@
+.contacts-managers {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contacts-managers div {
+    width: 100%;
+}
+
+.contacts-card {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contacts-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contacts-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e0e0e0;
+    margin-right: 16px;
+}
+
+.contacts-info {
+    flex-grow: 1;
+}
+
+.position {
+    color: #666;
+    margin: 4px 0;
+}
+
+.messengers {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.messengers img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.messengers img:hover {
+    transform: scale(1.2);
+    filter: opacity(0.7);
+}
+
+@media screen and (max-width: 1140px) {
+    .contacts-managers {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .contacts-managers {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .contacts-container p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .contacts-managers {
+        width: 100%;
+    }
+}

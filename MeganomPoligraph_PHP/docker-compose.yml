@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  meganom-poligraph-php:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      - EMAIL_ADDRESS=${EMAIL_ADDRESS}
+      - EMAIL_PASSWORD=${EMAIL_PASSWORD}
+      - RECIPIENT_EMAIL=${RECIPIENT_EMAIL}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT}
+      - SMTP_SECURE=${SMTP_SECURE}
+    networks:
+      - mp-net
+
+networks:
+  mp-net:
+    driver: bridge

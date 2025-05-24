@@ -1,0 +1,158 @@
+@import url("./colors.css");
+
+* {
+    font-size: 1rem;
+    font-family: "Roboto Slab", serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-margin-top: 20px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: var(--text-color);
+    background-color: var(--main-color);
+}
+
+::selection {
+    color: var(--text-color);
+    background: var(--accent-color);
+}
+
+textarea {
+    resize: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 3.5em;
+    line-height: 1.5em;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 2.5em;
+    line-height: 1.4em;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 1.75em;
+    line-height: 1.3em;
+    margin-bottom: 14px;
+}
+
+h4 {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-bottom: 12px;
+}
+
+h5 {
+    font-size: 1.25em;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    margin-bottom: 8px;
+}
+
+p {
+    color: var(--text-color);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--hover-color);
+    text-decoration-color: var(--hover-color);
+}
+
+pre {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: var(--text-color);
+}
+
+pre p {
+    margin-bottom: 8px;
+}
+
+.btn-primary {
+    color: var(--main-color) !important;
+    background-color: var(--accent-color) !important;
+    transition: all 0.5s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.01);
+    filter: opacity(0.75);
+}
+
+.full-height {
+    /* monitor height - footer height - margin top - margin bottom - random number of pixel for more beautiful page view */
+    min-height: calc(100dvh - 189px - 1rem - 1rem - 35px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 960px) {
+    .full-height {
+        margin-top: 95px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    h5 {
+        font-size: 1.1em;
+    }
+
+    h6 {
+        font-size: 1em;
+    }
+}

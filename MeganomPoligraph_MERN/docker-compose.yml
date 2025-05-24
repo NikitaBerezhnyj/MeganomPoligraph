@@ -1,0 +1,54 @@
+version: "3.8"
+
+services:
+  meganom-poligraph-client:
+    build:
+      context: ./client
+    volumes:
+      - ./client:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "5173:5173"
+    depends_on:
+      - meganom-poligraph-server
+    networks:
+      - meganom-poligraph-net
+    container_name: meganom-poligraph-client
+
+  meganom-poligraph-server:
+    build:
+      context: ./server
+    volumes:
+      - ./server:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./server/.env
+    environment:
+      - HOST=0.0.0.0
+      - DB=mongodb://meganom-poligraph-db:27017/meganom-poligraph
+    depends_on:
+      - meganom-poligraph-db
+    networks:
+      - meganom-poligraph-net
+    container_name: meganom-poligraph-server
+
+  meganom-poligraph-db:
+    image: mongo:latest
+    restart: always
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - meganom-poligraph-net
+    container_name: meganom-poligraph-db
+
+networks:
+  meganom-poligraph-net:
+    driver: bridge
+
+volumes:
+  mongo_data:
+    driver: local

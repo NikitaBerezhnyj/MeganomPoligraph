@@ -1,0 +1,153 @@
+.home-hero-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/images/hero-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--dark-blue-color);
+    text-shadow: var(--main-color) 1px 0 10px;
+}
+
+.home-hero a {
+    color: var(--dark-blue-color);
+    text-decoration: underline;
+}
+
+.home-hero-text {
+    width: 75%;
+}
+
+#scroll-button {
+    position: absolute;
+    bottom: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#scroll-button .scroll-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#scroll-button .arrow {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-left: 3px solid #ffffff;
+    border-top: 3px solid #ffffff;
+    transform: rotate(-135deg) translateY(-50%);
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0) rotate(-135deg);
+    }
+
+    40% {
+        transform: translateY(-10px) rotate(-135deg);
+    }
+
+    60% {
+        transform: translateY(-5px) rotate(-135deg);
+    }
+}
+
+.home-services-container {
+    padding: 0;
+}
+
+.home-services-container a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.home-services-item {
+    padding: 16px 24px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    max-width: 100%;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.home-services-item img {
+    width: 75px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.home-services-item h5 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+.home-services-item p {
+    font-size: 0.875em;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+}
+
+.home-services-item:hover {
+    transform: scale(1.01);
+    border-radius: 25px;
+    box-shadow: 0 0 25px var(--disable-color);
+}
+
+
+.home-contact-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.submit-result {
+    visibility: hidden;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.submit-result.contact-success {
+    visibility: visible;
+    opacity: 1;
+    color: #28a745;
+}
+
+.submit-result.contact-error {
+    visibility: visible;
+    opacity: 1;
+    color: #dc3545;
+}

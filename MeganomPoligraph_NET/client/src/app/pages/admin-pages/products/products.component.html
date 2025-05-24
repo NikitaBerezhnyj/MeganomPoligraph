@@ -1,0 +1,85 @@
+<div class="products-container">
+  <div class="container full-height mb-3 mt-5 pt-5">
+    <div class="mb-4 products-header">
+      <h1>{{ "products.products-header" | translate }}</h1>
+      <div class="product-header-actions">
+        <select [(ngModel)]="sortOption" (change)="onSortChange($event)">
+          <option value="newest">
+            {{ "products.products-newest" | translate }}
+          </option>
+          <option value="oldest">
+            {{ "products.products-oldest" | translate }}
+          </option>
+        </select>
+        <button class="btn-primary" (click)="openCreatePage()">
+          {{ "products.products-add" | translate }} <i class="bi bi-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="mb-5" *ngIf="products.length > 0; else noProducts">
+      <div *ngFor="let product of products" class="product-card">
+        <div class="product-card-content">
+          <div class="product-image">
+            <img [src]="product.imageUrl" (click)="showModal(product.imageUrl)" alt="Image" />
+          </div>
+          <div class="product-description">
+            <p>
+              <b>{{ "products.products-categories" | translate }}:</b>
+              <span *ngFor="let category of product.productCategories; let last = last">
+                {{
+                  categoryTranslations["products.products-categories-list." + category] || category
+                }}<span *ngIf="!last">, </span>
+              </span>
+            </p>
+            <p>
+              <b>Опис:</b>
+              {{ getCleanedDescription(product.productDescriptions.ua) }}
+            </p>
+            <p>
+              <b>Описание:</b>
+              {{ getCleanedDescription(product.productDescriptions.ru) }}
+            </p>
+            <p>
+              <b>Description:</b>
+              {{ getCleanedDescription(product.productDescriptions.en) }}
+            </p>
+          </div>
+        </div>
+        <div class="product-actions">
+          <button class="btn-primary" (click)="openEditPage(product.productID)">
+            {{ "products.products-edit" | translate }}
+            <i class="bi bi-pencil-square"></i>
+          </button>
+          <button class="btn-danger" (click)="openDeleteModal(product.productID)">
+            {{ "products.products-delete" | translate }}
+            <i class="bi bi-trash-fill"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <ng-template #noProducts>
+      <p>No products found.</p>
+    </ng-template>
+  </div>
+
+  <div class="modal-overlay" *ngIf="isDeleteModalOpen">
+    <div class="delete-product-modal">
+      <h2>{{ "products.products-delete-modal-header" | translate }}</h2>
+      <p>{{ "products.products-delete-modal-text" | translate }}</p>
+      <div class="modal-buttons">
+        <button class="btn-danger" (click)="closeDeleteModal()">
+          {{ "products.products-delete-modal-cancel" | translate }}
+        </button>
+        <button class="btn-primary" (click)="deleteProduct(deletedProductId)">
+          {{ "products.products-delete-modal-delete" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<app-image-modal
+  *ngIf="modalImageUrl"
+  [imageUrl]="modalImageUrl"
+  (closeModal)="closeModal()"
+></app-image-modal>

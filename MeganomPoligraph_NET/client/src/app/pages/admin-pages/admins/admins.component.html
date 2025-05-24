@@ -1,0 +1,109 @@
+<div class="admins-container">
+  <div class="container full-height mt-5 mb-3 pt-5">
+    <div class="admins-header mb-4">
+      <h1>{{ "admins.admins-header" | translate }}</h1>
+      <button class="btn-primary" (click)="openCreateModal()">
+        {{ "admins.admins-add" | translate }} <i class="bi bi-plus"></i>
+      </button>
+    </div>
+
+    <div *ngIf="admins.length > 0; else noAdmins">
+      <div *ngFor="let admin of admins" class="admin-card">
+        <div>
+          <p>
+            <b>{{ "admins.admins-name" | translate }}:</b> {{ admin.name }}
+            <span *ngIf="admin.adminID.toString() === currentAdminId.toString()"
+              >[{{ "admins.admins-login-self-identity" | translate }}]</span
+            >
+          </p>
+          <p>
+            <b>{{ "admins.admins-role" | translate }}:</b>
+            {{
+              "admins.admins-role-" +
+                (admin.role.toLowerCase() === "superadmin" ? "super-admin" : "admin") | translate
+            }}
+          </p>
+        </div>
+        <div>
+          <button
+            class="btn-danger"
+            (click)="openDeleteModal(admin)"
+            [disabled]="admin.role === 'SuperAdmin'"
+          >
+            {{ "admins.admins-delete" | translate }}
+            <i class="bi bi-trash-fill"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <ng-template #noAdmins>
+      <p>{{ "No administrators found." | translate }}</p>
+    </ng-template>
+  </div>
+
+  <div class="modal-overlay" *ngIf="isModalOpen">
+    <div class="create-admins-modal">
+      <h2>{{ "admins.admins-add-modal-header" | translate }}</h2>
+
+      <label>{{ "admins.admins-add-modal-name" | translate }}:</label>
+      <input
+        placeholder="{{ 'Enter name for new admin' | translate }}"
+        type="text"
+        [(ngModel)]="newAdmin.name"
+      />
+
+      <label>{{ "admins.admins-add-modal-login" | translate }}:</label>
+      <input
+        placeholder="{{ 'Enter login for new admin' | translate }}"
+        type="text"
+        [(ngModel)]="newAdmin.login"
+      />
+
+      <label>{{ "admins.admins-add-modal-password" | translate }}:</label>
+      <input
+        placeholder="{{ 'Enter password for new admin' | translate }}"
+        type="password"
+        [(ngModel)]="newAdmin.password"
+      />
+
+      <label>{{ "admins.admins-add-modal-role" | translate }}:</label>
+      <select [(ngModel)]="newAdmin.role">
+        <option value="Admin">
+          {{ "admins.admins-add-modal-role-admin" | translate }}
+        </option>
+        <option value="SuperAdmin">
+          {{ "admins.admins-add-modal-role-super-admin" | translate }}
+        </option>
+      </select>
+
+      <p *ngIf="creatingAdminError" class="danger-text">
+        {{ creatingAdminError }}
+      </p>
+
+      <div class="modal-buttons">
+        <button class="btn-danger" (click)="closeCreateModal()">
+          {{ "admins.admins-add-modal-cancel" | translate }}
+        </button>
+        <button class="btn-primary" (click)="createAdmin()">
+          {{ "admins.admins-add-modal-create" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" *ngIf="isDeleteModalOpen">
+    <div class="delete-admins-modal">
+      <h2>{{ "admins.admins-delete-modal-header" | translate }}</h2>
+      <p>{{ "admins.admins-delete-modal-message" | translate }}</p>
+      <div class="modal-buttons">
+        <button class="btn-danger" (click)="closeDeleteModal()">
+          {{ "admins.admins-delete-modal-cancel" | translate }}
+        </button>
+        <button class="btn-primary" (click)="deleteAdmin(this.deletedAdminId)">
+          {{ "admins.admins-delete-modal-delete" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

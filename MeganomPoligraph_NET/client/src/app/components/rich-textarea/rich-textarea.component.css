@@ -1,0 +1,66 @@
+.custom-textarea {
+  width: 100%;
+  border: 1px solid var(--second-color);
+  border-radius: 5px;
+  padding: 10px;
+  background: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.toolbar button {
+  padding: 6px 12px;
+  border: 1px solid #bbb;
+  background: #f8f8f8;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition:
+    background 0.2s,
+    transform 0.1s;
+}
+
+.toolbar button:hover {
+  background: #e0e0e0;
+}
+
+.toolbar button:active {
+  background: #d0d0d0;
+  transform: scale(0.98);
+}
+
+.editor {
+  height: 14em;
+  max-height: 14em;
+  border: 1px solid var(--disable-color);
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  background: var(--main-color);
+  outline: none;
+  overflow-y: auto;
+  resize: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.editor:focus {
+  border-color: var(--accent-color);
+  background: var(--main-color);
+}
+
+.editor:empty::before {
+  content: attr(placeholder);
+  color: var(--disable-color);
+  font-style: italic;
+  pointer-events: none;
+}

@@ -1,0 +1,81 @@
+version: "3.8"
+
+services:
+  meganom-poligraph-client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: meganom-poligraph-client
+    restart: always
+    environment:
+      SERVER_URL: ${SERVER_URL}
+    volumes:
+      - ./client:/app
+    depends_on:
+      - meganom-poligraph-server
+    ports:
+      - "4200:4200"
+    networks:
+      - client_network
+
+  meganom-poligraph-server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: meganom-poligraph-server
+    restart: always
+    environment:
+      CLIENT_URL: ${CLIENT_URL}
+      SERVER_URL: ${SERVER_URL}
+      POSTGRES_HOST: meganom-poligraph-db
+      POSTGRES_PORT: ${POSTGRES_PORT}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      SMTP_HOST: ${SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT}
+      SENDER_MAIL: ${SENDER_MAIL}
+      SENDER_PASSWORD: ${SENDER_PASSWORD}
+      RECIPIENT_MAIL: ${RECIPIENT_MAIL}
+      JWT_SECRET: ${JWT_SECRET}
+    volumes:
+      - ./server:/app
+    depends_on:
+      - meganom-poligraph-db
+    ports:
+      - "5039:5039"
+    networks:
+      - client_network
+      - db_network
+
+  meganom-poligraph-db:
+    image: postgres:17.2-alpine
+    container_name: meganom-poligraph-db
+    restart: always
+    environment:
+      POSTGRES_DB: "${POSTGRES_DB}"
+      POSTGRES_USER: "${POSTGRES_USER}"
+      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+    ports:
+      - "5434:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - db_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
+    driver: local
+
+networks:
+  client_network:
+    driver: bridge
+    name: client_network
+  db_network:
+    driver: bridge
+    name: db_network

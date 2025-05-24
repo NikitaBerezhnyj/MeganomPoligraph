@@ -1,0 +1,82 @@
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.localization-group {
+  background-color: var(--second-color);
+  border: 1px solid var(--text-color);
+  padding: 0px;
+}
+
+.localization-button-group {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.localization-button-group button {
+  padding: 10px 20px;
+  border: 1px solid var(--border-color);
+  border-bottom: none;
+  cursor: pointer;
+  background-color: var(--second-color);
+  border-radius: 0 !important;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.localization-button-group button.active {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+
+.localization-input {
+  border: 1px solid var(--border-color);
+  border-top: none;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+  background: var(--main-color);
+  margin: 0;
+  padding: 0;
+}
+
+.image-upload-container {
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.image-upload-container.drag-over {
+  border-color: var(--accent-color);
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.upload-placeholder {
+  text-align: center;
+  color: #777;
+}
+
+.upload-placeholder i {
+  font-size: 40px;
+}
+
+.upload-placeholder p {
+  margin: 10px 0 0;
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

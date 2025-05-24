@@ -1,0 +1,35 @@
+<div class="dashboard-container full-height mt-5 pt-5 mb-3">
+  <div class="row dashboard-wrap">
+    <div class="col-xl-6 col-lg-6 col-sm-12" (click)="navigateTo('/admin/analytics')">
+      <div class="stat-block">
+        <div class="dashboard-title">
+          <h3>{{ "dashboard.dashboard-analytics" | translate }}</h3>
+          <i class="bi bi-bar-chart-line-fill"></i>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-xl-6 col-lg-6 col-sm-12 dashboard-block-container"
+      [ngClass]="{ 'super-admin': isSuperAdmin }"
+    >
+      <div class="row dashboard-block" (click)="navigateTo('/admin/products')">
+        <div class="dashboard-title">
+          <h3>{{ "dashboard.dashboard-products" | translate }}</h3>
+          <i class="bi bi-bag-check-fill"></i>
+        </div>
+      </div>
+      <div class="row dashboard-block" *ngIf="isSuperAdmin" (click)="navigateTo('/admin/admins')">
+        <div class="dashboard-title">
+          <h3>{{ "dashboard.dashboard-admins" | translate }}</h3>
+          <i class="bi bi-people-fill"></i>
+        </div>
+      </div>
+      <div class="row dashboard-block" (click)="navigateTo('/admin/profile')">
+        <div class="dashboard-title">
+          <h3>{{ "dashboard.dashboard-profile" | translate }}</h3>
+          <i class="bi bi-person-circle"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

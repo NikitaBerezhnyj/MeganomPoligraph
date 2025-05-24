@@ -1,0 +1,416 @@
+{
+  "meta": {
+    "title": "Meganom Polygraph",
+    "title-admin": "Meganom Polygraph (Admin)",
+    "keywords": "printing, paper bags, cardboard bags, logo bags, gift bags, kraft bags, embossed bags, foil stamped bags, designer bags, UV lacquered bags, branded folders, custom bags, business packaging, eco-friendly packaging, promotional bags, branded bags",
+    "home-page-description": "Meganom Polygraph is a manufacturer of high-quality paper and cardboard bags in both large and small quantities. Logo bags, gift bags, kraft bags, embossed and foil stamped bags, designer bags, and other services for your business. We offer custom products at competitive prices with high quality.",
+    "about-page-description": "Manufacturing and custom bag production in Kyiv. Individual approach, fast order fulfillment times - Meganom Polygraph.",
+    "delivery-page-description": "Delivery is available throughout Ukraine.",
+    "example-page-description": "Meganom Polygraph printing house - examples of work. Full cycle of services: design preparation and production.",
+    "example-paper-bags-laminated-page-description": "Coated paper bags with a density of 150 g/m², 170 g/m², 200 g/m², 250 g/m², covered with glossy or matte film (matte or glossy lamination). Offset printing. Bottom and handles reinforced with 400 g/m² cardboard. Handles: polypropylene or polyester cord with filling, 5 mm diameter.",
+    "example-logo-bags-page-description": "This packaging is perfect for advertising. Logos or any image can be printed on the bags. Branded paper bags help boost company image, enhance brand recognition, and show that the company cares about its clients.",
+    "example-cardboard-bags-page-description": "We recommend this type of bag for heavy products. Cardboard packaging is strong and allows you to carry items like outerwear, bottles, etc., with confidence that it can support the weight. The print quality on cellulose-coated cardboard is also high.",
+    "example-kraft-bags-page-description": "Branded kraft bags speak to the awareness of the company’s leadership, distinguish you from competitors, and communicate the values of your brand. Kraft paper bags are eco-friendly, with paper density of 80 g/m², 100 g/m², 110 g/m², 120 g/m², 170 g/m², in brown or white color, with twisted handles or 0.5 mm cord.",
+    "example-gift-bags-page-description": "This is the business card of your gift. A bright or subdued design will create a charming atmosphere. We have a wide selection of sizes and layouts for any gift and any celebration or meeting. All available products can be found out from our managers.",
+    "example-branded-folders-page-description": "Necessary for exchanging documents with clients, participating in seminars and conferences. A branded folder can be used as a promotional item, featuring the company’s QR code, information about services, or special offers. A branded folder is an important element of a company’s style.",
+    "example-designer-paper-bags-page-description": "Significantly different from standard types of packaging. They are strong and attract attention, created to emphasize your company’s individuality. When choosing designer paper for the bags, pay attention to color, texture, and density. Minimum order is 50 pieces.",
+    "example-uv-lacquer-bags-page-description": "Stylish and creative, attracting attention and leaving a lasting impression. UV lacquer is applied to the matte surface, which hardens and acquires a glossy finish when exposed to UV light. Selective UV lacquer is applied to design elements that need to be highlighted or emphasized. Selective UV lacquer stands out especially on dark matte surfaces.",
+    "example-page-embossed-bags-description": "Add luxury and elegance to your products. Despite their affordability, they have an expensive look with an impressive design. Foil embossing of a logo or text on the bag’s surface is done using special foil and heated matrices. Congreve is the process of creating a raised image on the material’s surface (paper or cardboard) using a stamp and counter-stamp. Minimum order is 100 pieces.",
+    "contacts-page-description": "Contact details of the printing house for bag production: phone numbers, email, address, and messengers."
+  },
+
+  "header": {
+    "brand": "Meganom Polygraph",
+    "home": "Home",
+    "example": "Examples of Work",
+    "contacts": "Contacts",
+    "about": "About Us",
+    "delivery": "Delivery",
+
+    "admin-brand": "Meganom Polygraph (Admin)",
+    "admin-home": "Home",
+    "admin-analytics": "Statistics",
+    "admin-products": "Products",
+    "admin-admins": "Administrators",
+    "admin-profile": "Profile"
+  },
+
+  "home": {
+    "home-page-description": "Meganom Polygraph is a manufacturer of high-quality paper and cardboard bags in large and small print runs. Bags with logos, gift bags, kraft bags, embossed and debossed bags, designer bags, and other services for your business. We offer custom-made products at competitive prices with high quality.",
+
+    "home-hero-header": "Meganom Polygraph",
+    "home-hero-services": "Laminated paper bags ⋅ Logo bags ⋅ Kraft bags ⋅ Gift bags ⋅ Embossed and debossed bags ⋅ Designer paper bags ⋅ Spot UV lacquer bags ⋅ Branded document folders",
+
+    "home-services-header": "Our Services",
+    "home-services-paper-bags-laminated-header": "Laminated Paper Bags",
+    "home-services-paper-bags-laminated-description": "Custom laminated bags made of coated paper with rope handles",
+    "home-services-logo-bags-header": "Logo Bags",
+    "home-services-logo-bags-description": "We print your logo or any image on advertising bags",
+    "home-services-cardboard-bags-header": "Cardboard Bags",
+    "home-services-cardboard-bags-description": "Custom cardboard bags are durable and have an elegant look",
+    "home-services-kraft-bags-header": "Kraft Bags",
+    "home-services-kraft-bags-description": "Kraft bags are an eco-friendly packaging solution at a budget-friendly price",
+    "home-services-gift-bags-header": "Gift Bags",
+    "home-services-gift-bags-description": "We are Ukrainian manufacturers of gift bags for all occasions",
+    "home-services-branded-folders-header": "Branded Document Folders",
+    "home-services-branded-folders-description": "Branded folders with embossing or printing are an essential element of a company's style",
+    "home-services-designer-paper-bags-header": "Designer Paper Bags",
+    "home-services-designer-paper-bags-description": "Designer paper or cardboard bags are made using die-cutting",
+    "home-services-uv-lacquer-bags-header": "Spot UV Lacquer Bags",
+    "home-services-uv-lacquer-bags-description": "A bag with UV lacquer will effectively highlight your company’s logo",
+    "home-services-embossed-bags-header": "Embossed and Debossed Bags",
+    "home-services-embossed-bags-description": "Embossing and debossing on bags add a unique appearance",
+
+    "home-contact-form-header": "Contact Us",
+    "home-contact-form-name-label": "Name",
+    "home-contact-form-name-placeholder": "Name",
+    "home-contact-form-name-error": "This field is required",
+    "home-contact-form-contact-error": "Please provide at least one contact",
+    "home-contact-form-phone-label": "Phone",
+    "home-contact-form-phone-placeholder": "Phone",
+    "home-contact-form-phone-error": "Invalid phone number format",
+    "home-contact-form-mail-label": "Email",
+    "home-contact-form-mail-placeholder": "E-mail",
+    "home-contact-form-mail-error": "Invalid email format",
+
+    "home-contact-form-type-label": "Product Type",
+    "home-contact-form-type-options": {
+      "empty": "Select product type",
+      "bag": "Bag",
+      "folder": "Folder"
+    },
+
+    "home-contact-form-size-label": "Size (width, height, depth)",
+    "home-contact-form-size-options": {
+      "empty": "Select size",
+      "custom": "Your option"
+    },
+
+    "home-contact-form-material-label": "Material",
+    "home-contact-form-material-options": {
+      "empty": "Select material",
+      "paper": "Coated paper 200 g.",
+      "cardboard": "Cardboard 210 g.",
+      "kraft": "Kraft 110 g.",
+      "custom": "Your option"
+    },
+
+    "home-contact-form-print-label": "Print",
+    "home-contact-form-print-options": {
+      "empty": "Select print type",
+      "pantone_1_0": "Pantone 1+0",
+      "pantone_2_0": "Pantone 2+0",
+      "pantone_3_0": "Pantone 3+0",
+      "pantone_4_0": "Pantone 4+0",
+      "custom": "Your option"
+    },
+
+    "home-contact-form-embossing-label": "Lamination",
+    "home-contact-form-embossing-options": {
+      "empty": "Select lamination type",
+      "matte": "Matte",
+      "glossy": "Glossy",
+      "none": "No lamination"
+    },
+
+    "home-contact-form-handles-label": "Handles",
+    "home-contact-form-handles-options": {
+      "empty": "Select handles",
+      "cord": "Cord",
+      "ribbon_satin": "Satin ribbon",
+      "ribbon_reps": "Reps ribbon",
+      "none": "No handles"
+    },
+
+    "home-contact-form-message-label": "Leave a Message",
+    "home-contact-form-message-placeholder": "Specify the bag size, material, printing, and quantity",
+    "home-contact-form-message-error": "This field is required",
+    "home-contact-form-button": "Send Message",
+    "home-contact-form-success": "Message sent :)",
+    "home-contact-form-error": "Sorry... it looks like an error occurred",
+    "home-contact-form-sending-error": "An error occurred while sending the message"
+  },
+
+  "about": {
+    "about-page-description": "Manufacturing and production of bags in Kyiv on order. Individual approach, fast order execution - Meganom Polygraph.",
+
+    "about-header": "About Us",
+    "about-paragraph-first": "Since our founding in 2000, we have chosen a development vector that we successfully adhere to: the paper and cardboard bags we produce must be of the highest possible quality. We do not manufacture bags at the lowest prices – we create high-quality products at competitive prices.",
+    "about-paragraph-second": "With our own production facilities equipped with modern machinery and quality control at every stage of production, as well as well-established and reliable connections with both Ukrainian and international suppliers, we can guarantee our clients favorable cooperation terms and long-term partnerships.",
+    "about-paragraph-third": "Meganom Polygraph offers you a wide range of high-quality paper and cardboard bags that are perfect for various purposes, whether it be product packaging, promotional materials, or corporate gifts. Our products are distinguished not only by their high quality but also by stylish designs that attract attention and enhance your brand.",
+    "about-paragraph-fourth": "The main difference between our company and competitors is that, as of today, the products we offer have the best price-to-quality ratio on the Ukrainian market. Many customers and regular clients have already appreciated this and our other advantages."
+  },
+
+  "delivery": {
+    "delivery-page-description": "Delivery is available throughout Ukraine.",
+
+    "delivery-header": "Delivery",
+    "delivery-kyiv": "Kyiv:",
+    "delivery-kyiv-paragraph-first": "Product delivery is discussed individually with the manager.",
+    "delivery-kyiv-paragraph-second": "Product shipment time is from 10:00 AM to 5:00 PM on business days.",
+    "delivery-ukraine": "Ukraine:",
+    "delivery-ukraine-paragraph-first": "Delivery of products to other cities and regions of Ukraine is carried out by the 'Nova Poshta' courier service. The delivery cost is calculated individually according to the carrier’s tariffs, depending on the weight, dimensions of the shipment, and destination region. The delivery payment is made by the customer upon receipt of the goods.",
+    "delivery-ukraine-paragraph-second": "Please review the delivery conditions on the carrier’s website: <a href=\"https://novaposhta.ua/\" target=\"_blank\"> \"Nova Poshta\" </a>"
+  },
+
+  "example": {
+    "example-header": "Examples of Work",
+    "example-description": "Explore examples of our products created in various styles and technologies. We offer high-quality packaging and branded products to choose from: <a href='/example/paper-bags-laminated'>Laminated Paper Bags</a>, <a href='/example/logo-bags'>Branded Logo Bags</a>, <a href='/example/cardboard-bags'>Cardboard Bags</a>, <a href='/example/kraft-bags'>Kraft Bags</a>, <a href='/example/gift-bags'>Gift Bags</a>, <a href='/example/branded-folders'>Branded Folders</a>, <a href='/example/designer-paper-bags'>Designer Paper Bags</a>, <a href='/example/uv-lacquer-bags'>UV Lacquer Bags</a>, <a href='/example/embossed-bags'>Embossed Bags</a>",
+
+    "example-paper-bags-laminated-header": "Laminated Paper Bags",
+    "example-paper-bags-laminated-description": "",
+    "example-logo-bags-header": "Branded Logo Bags",
+    "example-logo-bags-description": "",
+    "example-cardboard-bags-header": "Cardboard Bags",
+    "example-cardboard-bags-description": "",
+    "example-kraft-bags-header": "Kraft Bags",
+    "example-kraft-bags-description": "",
+    "example-gift-bags-header": "Gift Bags",
+    "example-gift-bags-description": "",
+    "example-branded-folders-header": "Branded Document Folders",
+    "example-branded-folders-description": "",
+    "example-designer-paper-bags-header": "Designer Paper Bags",
+    "example-designer-paper-bags-description": "",
+    "example-uv-lacquer-bags-header": "Bags with Selective UV Lacquer",
+    "example-uv-lacquer-bags-description": "",
+    "example-embossed-bags-header": "Embossed and Debossed Bags",
+    "example-embossed-bags-description": ""
+  },
+
+  "contacts": {
+    "contacts-page-description": "Contacts of the printing house for bag production: phone numbers, email, address, and messengers.",
+
+    "contacts-header": "Contacts",
+    "contacts-address-header": "Address: ",
+    "contacts-address-content": "Kyiv, Yuliia Zdanovska Street, 8-B, Office 319.",
+    "contacts-email-header": "Email: ",
+    "contacts-name-first": "Iryna",
+    "contacts-name-second": "Tetiana",
+    "contacts-position": "Manager",
+    "contacts-phone": "Phone: "
+  },
+
+  "error": {
+    "404-error-header": "Page Not Found",
+    "404-error-message": "Unfortunately, the page <strong>{url}</strong> you are looking for does not exist or has been moved.",
+    "403-error-header": "Access Forbidden",
+    "403-error-message": "Sorry, but you do not have permission to access the page <strong>{url}</strong>.",
+    "default-error-header": "An Error Occurred",
+    "default-error-message": "Something went wrong while trying to access the page <strong>{url}</strong>.",
+    "error-standard-message": "Please check the URL for correctness or use the options below.",
+    "error-home-button": "Return to Home",
+    "error-back-button": "Go Back"
+  },
+
+  "login": {
+    "login-header": "Admin Login",
+    "login-login": "Username",
+    "login-password": "Password",
+    "login-show-password": "Show password",
+    "login-button": "Log in",
+    "login-validation-error": "Please fill in all fields!",
+    "login-success": "You have successfully logged in”",
+    "login-error": "Login error! Please try again."
+  },
+
+  "dashboard": {
+    "dashboard-analytics": "Analytics",
+    "dashboard-products": "Products",
+    "dashboard-admins": "Administrators",
+    "dashboard-profile": "Profile"
+  },
+
+  "analytics": {
+    "analytics-header": "Analytics",
+    "analytics-users-header": "Visitors",
+    "analytics-users": "Total Visitors",
+    "analytics-new-users": "New Visitors",
+    "analytics-diagram-all-users": "Total Visitors",
+    "analytics-diagram-new-users": "New Visitors",
+    "analytics-requests-header": "Requests",
+    "analytics-requests": "Total Requests",
+    "analytics-requests-link": "View All Requests",
+    "analytics-select-time-period": "Select time period: ",
+    "analytics-all-time": "All time",
+    "analytics-year": "Year",
+    "analytics-month": "Month"
+  },
+
+  "requests": {
+    "requests-header": "Requests",
+    "requests-newest": "From Newest to Oldest",
+    "requests-oldest": "From Oldest to Newest",
+    "requests-show-only-new": "Show only new",
+    "requests-show-only-my": "Show only mine",
+    "requests-name": "Name",
+    "requests-phone": "Phone",
+    "requests-email": "Email",
+    "requests-createdAt": "Created At",
+    "requests-language": "Language",
+    "requests-view": "Details",
+    "requests-modal-header": "Request Details",
+    "requests-modal-language": "Language",
+    "requests-modal-circulation": "Circulation",
+    "requests-modal-embossing": "Embossing",
+    "requests-modal-size": "Size",
+    "requests-modal-material": "Material",
+    "requests-modal-type": "Type",
+    "requests-modal-print": "Print",
+    "requests-modal-notes": "Notes",
+    "requests-modal-close": "Close",
+    "requests-status-label": "Status:",
+    "requests-status-new": "New",
+    "requests-status-in-progress": "In Progress",
+    "requests-status-done": "Done",
+    "requests-status-rejected": "Rejected",
+
+    "requests-type-options": {
+      "bag": "Bag",
+      "folder": "Folder"
+    },
+
+    "requests-size-options": {
+      "custom": "Your option"
+    },
+
+    "requests-material-options": {
+      "paper": "Coated paper 200 g",
+      "cardboard": "Cardboard 210 g",
+      "kraft": "Kraft 110 g",
+      "custom": "Your option"
+    },
+
+    "requests-print-options": {
+      "pantone_1_0": "Pantone 1+0",
+      "pantone_2_0": "Pantone 2+0",
+      "pantone_3_0": "Pantone 3+0",
+      "pantone_4_0": "Pantone 4+0",
+      "custom": "Your option"
+    },
+
+    "requests-embossing-options": {
+      "matte": "Matte",
+      "glossy": "Glossy",
+      "none": "No lamination"
+    },
+
+    "requests-handles-options": {
+      "cord": "Cord",
+      "ribbon_satin": "Satin ribbon",
+      "ribbon_reps": "Grosgrain ribbon",
+      "none": "No handles"
+    },
+
+    "requests-not-specified": "Not specified",
+    "requests-custom-value": "Customer's custom option",
+    "requests-not-selected": "Not selected"
+  },
+
+  "products": {
+    "products-header": "Products",
+    "products-newest": "From Newest to Oldest",
+    "products-oldest": "From Oldest to Newest",
+    "products-add": "Add",
+    "products-categories": "Categories",
+    "products-categories-list": {
+      "paper-bags-laminated": "Laminated Paper Bags",
+      "logo-bags": "Logo Bags",
+      "cardboard-bags": "Cardboard Bags",
+      "kraft-bags": "Kraft Bags",
+      "gift-bags": "Gift Bags",
+      "branded-folders": "Branded Document Folders",
+      "designer-paper-bags": "Designer Paper Bags",
+      "uv-lacquer-bags": "Selective UV Lacquer Bags",
+      "embossed-bags": "Embossed and Debossed Bags"
+    },
+    "products-edit": "Edit",
+    "products-delete": "Delete",
+    "products-error-lock": "The product is blocked. Please try again later."
+  },
+
+  "manage-product": {
+    "create-product-header": "Create product",
+    "edit-product-header": "Edit product",
+    "manage-product-category-label": "Select categories",
+    "manage-product-categories": {
+      "paper-bags-laminated": "Laminated paper bags",
+      "logo-bags": "Logo bags",
+      "cardboard-bags": "Cardboard bags",
+      "kraft-bags": "Kraft bags",
+      "gift-bags": "Gift bags",
+      "branded-folders": "Branded document folders",
+      "designer-paper-bags": "Designer paper bags",
+      "uv-lacquer-bags": "UV lacquer bags",
+      "embossed-bags": "Embossed and debossed bags"
+    },
+    "manage-product-image": "Select an image",
+    "create-product-button": "Save new product",
+    "edit-product-button": "Save updated product",
+    "manage-product-category-error": "* You must select at least one category",
+    "manage-product-description-error": "* Product description in all languages is required",
+    "manage-product-image-error": "* Product image is required",
+    "manage-product-response-success-add": "Product successfully created",
+    "manage-product-response-success-edit": "Product successfully updated",
+    "manage-product-response-error-add": "Error creating the product. Please try again later",
+    "manage-product-response-error-edit": "Error updating the product. Please try again later",
+    "manage-product-confirm-lock": "The product lock time has expired. Do you want to extend it for another 30 minutes?",
+    "manage-product-error-confirm-lock": "The product is already locked by another user. Please try again later."
+  },
+
+  "admins": {
+    "admins-header": "Administrators",
+    "admins-add": "Add",
+    "admins-delete": "Delete",
+    "admins-login": "Login",
+    "admins-name": "Name",
+    "admins-role": "Role",
+    "admins-role-admin": "Administrator",
+    "admins-role-super-admin": "Super Administrator",
+    "admins-login-self-identity": "You",
+    "admins-add-modal-header": "Add Administrator",
+    "admins-add-modal-login": "Login",
+    "admins-add-modal-password": "Password",
+    "admins-add-modal-role": "Role",
+    "admins-add-modal-role-admin": "Administrator",
+    "admins-add-modal-role-super-admin": "Super Administrator",
+    "admins-add-modal-cancel": "Cancel",
+    "admins-add-modal-create": "Create",
+    "admins-delete-modal-header": "Delete Administrator",
+    "admins-delete-modal-message": "Are you sure you want to delete this administrator?",
+    "admins-delete-modal-cancel": "No, Cancel",
+    "admins-delete-modal-delete": "Yes, Delete"
+  },
+
+  "profile": {
+    "profile-header": "Profile",
+    "profile-name": "Name",
+    "profile-login": "Login",
+    "profile-change-save": "Save",
+    "profile-change-cancel": "Cancel",
+    "profile-role": "Role",
+    "profile-role-admin": "Administrator",
+    "profile-role-super-admin": "Super Administrator",
+    "profile-change-password": "Change Password",
+    "profile-logout": "Logout From Account",
+    "profile-delete": "Delete Account",
+    "profile-change-password-modal-header": "Change Password",
+    "profile-change-password-modal-current-password": "New Password",
+    "profile-change-password-modal-repeat-password": "Confirm Password",
+    "profile-change-password-modal-new-password-placeholder": "Enter New Password",
+    "profile-change-password-modal-repeat-password-placeholder": "Repeat New Password",
+    "profile-change-password-modal-empty-error": "Please enter the password and its confirmation",
+    "profile-change-password-modal-not-matching-error": "Passwords do not match",
+    "profile-change-password-modal-weak-error": "Password must be at least 8 characters long and contain at least one digit, one uppercase letter, and one lowercase letter",
+    "profile-change-password-modal-cancel": "Cancel",
+    "profile-change-password-modal-change": "Save",
+    "profile-delete-modal-header": "Delete Account",
+    "profile-delete-modal-message": "Are you sure you want to delete your account?",
+    "profile-delete-modal-cancel": "No, Cancel",
+    "profile-delete-modal-delete": "Yes, Delete"
+  },
+
+  "footer": {
+    "phone": "Phone:",
+    "mail": "Email:"
+  }
+}

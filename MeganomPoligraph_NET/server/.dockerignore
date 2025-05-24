@@ -1,0 +1,6 @@
+bin
+obj
+Dockerfile
+Migrations
+.dockerignore
+appsettings.json

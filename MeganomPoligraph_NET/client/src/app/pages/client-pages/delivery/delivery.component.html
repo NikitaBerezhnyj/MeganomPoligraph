@@ -1,0 +1,27 @@
+<div class="container mt-5 mb-3 centered-full-height">
+  <h1>
+    {{ "delivery.delivery-header" | translate }}
+  </h1>
+  <div class="delivery-content">
+    <div>
+      <h2>
+        {{ "delivery.delivery-kyiv" | translate }}
+      </h2>
+      <p>
+        {{ "delivery.delivery-kyiv-paragraph-first" | translate }}
+      </p>
+      <p>
+        {{ "delivery.delivery-kyiv-paragraph-second" | translate }}
+      </p>
+    </div>
+    <div>
+      <h2>
+        {{ "delivery.delivery-ukraine" | translate }}
+      </h2>
+      <p>
+        {{ "delivery.delivery-ukraine-paragraph-first" | translate }}
+      </p>
+      <p [innerHTML]="getHtmlTranslation('delivery.delivery-ukraine-paragraph-second')"></p>
+    </div>
+  </div>
+</div>

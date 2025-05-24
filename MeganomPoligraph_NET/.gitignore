@@ -1,0 +1,16 @@
+.env
+.vscode
+.angular
+
+# Client
+client/node_modules
+client/dist
+client/src/environments
+
+# Server
+server/bin
+server/obj
+server/Migrations
+server/wwwroot/uploads
+server/appsettings.json
+server/uploads

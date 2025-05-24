@@ -1,0 +1,54 @@
+@apiURL = http://localhost:3001/api
+
+### Вхід
+
+POST {{apiURL}}/login
+Content-Type: application/json
+
+{
+    "login": "admin",
+    "password": "admin"
+}
+
+### Отримання всіх продуктів
+
+GET {{apiURL}}/product
+
+### Додавання продукту
+
+POST {{apiURL}}/product
+Content-Type: application/json
+
+{
+    "description": {
+      "ua": "Опис українською", 
+      "ru": "Описание на русском", 
+      "en": "Description in English" 
+    },
+    "category": "folder",
+    "imageUrl": "http://localhost:3001/uploads/1_.jpg"
+}
+
+
+### Редагування продукту по id
+
+PUT {{apiURL}}/product/670ae124831b526b49fa1e0c
+Content-Type: application/json
+
+{
+  "name": "Оновлений Продукт",
+  "descriptionUa": "Опис оновлено українською",
+  "descriptionRu": "Описание обновлено на русском",
+  "descriptionEn": "Description updated in English",
+  "category": "folder",
+  "imageUrl": "/uploads/new_product.jpg"
+}
+
+
+### Видалення продукту по id
+
+DELETE {{apiURL}}/product/670ae124831b526b49fa1e0c
+
+### Перевірка чи редагується продукт зараз
+
+### Зняття статусу редагування з продукту

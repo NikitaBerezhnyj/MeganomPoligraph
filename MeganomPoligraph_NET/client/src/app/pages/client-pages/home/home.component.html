@@ -1,0 +1,192 @@
+<div class="home-hero-container mar-48">
+  <div id="hero" class="container home-hero">
+    <div class="home-hero-text">
+      <h1>{{ "home.home-hero-header" | translate }}</h1>
+      <h5>{{ "home.home-hero-services" | translate }}</h5>
+      <p>
+        <a href="tel:+380992340083">+380 (99) 234 0083</a>
+        ⋅
+        <a href="tel:+380992340083">+380 (67) 930 8951</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="scroll-button">
+  <button class="scroll-btn" (click)="scrollToNextSection()">
+    <span class="arrow"></span>
+  </button>
+</div>
+
+<div class="container mt-5 mb-5">
+  <div class="home-services-container">
+    <h2 class="mb-5">{{ "home.home-services-header" | translate }}</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-xl-4 mb-4" *ngFor="let service of services">
+          <a [routerLink]="service.link" class="home-services-link">
+            <div class="home-services-item">
+              <img [src]="service.image" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">{{ getLabel(service.headerKey) }}</h5>
+                <p class="card-text">{{ getLabel(service.descriptionKey) }}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="home-contact-wrap">
+  <div class="container mt-5 pb-5">
+    <div class="home-contact-container" id="contact-form">
+      <h2 class="text-center mb-4">
+        {{ "home.home-contact-form-header" | translate }}
+      </h2>
+      <form id="contactForm" class="needs-validation" (ngSubmit)="submitForm()" novalidate>
+        <div class="form-group">
+          <label for="name">{{ "home.home-contact-form-name-label" | translate }}</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="{{ 'home.home-contact-form-name-placeholder' | translate }}"
+            [(ngModel)]="name"
+          />
+          <div class="invalid-feedback">
+            {{ "home.home-contact-form-name-error" | translate }}
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phone">{{ "home.home-contact-form-phone-label" | translate }}</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            class="form-control"
+            placeholder="{{ 'home.home-contact-form-phone-placeholder' | translate }}"
+            pattern="^\+?[0-9]{10,15}$"
+            [(ngModel)]="phone"
+          />
+          <div class="invalid-feedback">
+            {{ "home.home-contact-form-phone-error" | translate }}
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="mail">{{ "home.home-contact-form-mail-label" | translate }}</label>
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            class="form-control"
+            placeholder="{{ 'home.home-contact-form-mail-placeholder' | translate }}"
+            [(ngModel)]="email"
+          />
+          <div class="invalid-feedback">
+            {{ "home.home-contact-form-mail-error" | translate }}
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="type">{{ "home.home-contact-form-type-label" | translate }}</label>
+          <select name="type" id="type" [(ngModel)]="type">
+            <option value="">
+              {{ "home.home-contact-form-type-options.empty" | translate }}
+            </option>
+            <option *ngFor="let option of types" [value]="option.value">
+              {{ getLabel(option.label) }}
+            </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="size">{{ "home.home-contact-form-size-label" | translate }}</label>
+          <select name="size" id="size" [(ngModel)]="size">
+            <option value="">
+              {{ "home.home-contact-form-size-options.empty" | translate }}
+            </option>
+            <option *ngFor="let option of sizeOptions" [value]="option.value">
+              {{ getLabel(option.label) }}
+            </option>
+            <option value="custom">
+              {{ "home.home-contact-form-size-options.custom" | translate }}
+            </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="material">{{ "home.home-contact-form-material-label" | translate }}</label>
+          <select name="material" id="material" [(ngModel)]="material">
+            <option value="">
+              {{ "home.home-contact-form-material-options.empty" | translate }}
+            </option>
+            <option *ngFor="let option of materials" [value]="option.value">
+              {{ getLabel(option.label) }}
+            </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="print">{{ "home.home-contact-form-print-label" | translate }}</label>
+          <select name="print" id="print" [(ngModel)]="print">
+            <option value="">
+              {{ "home.home-contact-form-print-options.empty" | translate }}
+            </option>
+            <option *ngFor="let option of prints" [value]="option.value">
+              {{ getLabel(option.label) }}
+            </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="embossing">{{ "home.home-contact-form-embossing-label" | translate }}</label>
+          <select name="embossing" id="embossing" [(ngModel)]="embossing">
+            <option value="">
+              {{ "home.home-contact-form-embossing-options.empty" | translate }}
+            </option>
+            <option *ngFor="let option of embossings" [value]="option.value">
+              {{ getLabel(option.label) }}
+            </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="handles">{{ "home.home-contact-form-handles-label" | translate }}</label>
+          <select name="handles" id="handles" [(ngModel)]="handles">
+            <option value="">
+              {{ "home.home-contact-form-handles-options.empty" | translate }}
+            </option>
+            <option *ngFor="let option of handlesOptions" [value]="option.value">
+              {{ getLabel(option.label) }}
+            </option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="circulation">Тираж</label>
+          <input
+            type="number"
+            name="circulation"
+            id="circulation"
+            min="1"
+            [(ngModel)]="circulation"
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">{{ "home.home-contact-form-message-label" | translate }}</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="7"
+            class="form-control"
+            placeholder="{{ 'home.home-contact-form-message-placeholder' | translate }}"
+            [(ngModel)]="notes"
+          ></textarea>
+          <div class="invalid-feedback">
+            {{ "home.home-contact-form-message-error" | translate }}
+          </div>
+        </div>
+        <p class="submit-result"></p>
+        <button type="submit" class="btn btn-primary btn-block" id="submit-button">
+          {{ "home.home-contact-form-button" | translate }}
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

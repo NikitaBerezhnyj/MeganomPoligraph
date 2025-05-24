@@ -1,0 +1,116 @@
+.rich-alert-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rich-alert-overlay-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rich-alert-container {
+  background-color: var(--main-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 300px;
+  max-width: 500px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.rich-alert-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.rich-alert-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.rich-alert-close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+.rich-alert-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rich-alert-icon {
+  margin-right: 15px;
+  font-size: 24px;
+}
+
+.rich-alert-message {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.rich-alert-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.rich-alert-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid var(--disable-color);
+  background-color: var(--second-color);
+}
+
+.rich-alert-confirm-btn {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  border-color: var(--accent-color);
+}
+
+.rich-alert-cancel-btn {
+  background-color: var(--second-color);
+  color: var(--text-color);
+}
+
+/* Alert types */
+.rich-alert-success {
+  border-left: 4px solid var(--success-color);
+}
+
+.rich-alert-error {
+  border-left: 4px solid var(--danger-color);
+}
+
+.rich-alert-warning {
+  border-left: 4px solid #ffc107;
+}
+
+.rich-alert-info {
+  border-left: 4px solid #17a2b8;
+}
+
+.rich-alert-primary {
+  border-left: 4px solid var(--accent-color);
+}
+
+.rich-alert-primary-btn {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  border-color: var(--accent-color);
+}

@@ -1,0 +1,652 @@
+[
+  {
+    "imageUrl": "http://localhost:5039/uploads/1_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 24*36*9</p><p><b>Material:</b> kraft brown 170g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.<br/>The package is cut out.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 24*36*9</p><p><b>Материал:</b> крафт бурый 170г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.<br/>Пакет высеченный.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 24*36*9</p><p><b>Матеріал:</b> крафт бурий 170г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.<br/>Пакет висічений.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/2_2024-10-13_17-00-00.jpg",
+    "productCategories": ["uv-lacquer-bags", "paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*35*9, 40*33*20</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>Selective UV varnish<br/>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*35*9, 403320</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Выборочный УФ лак<br/>Люверсы<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*35*9, 40*33*20</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Вибірковий УФ лак<br/>Люверси<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/3_2024-10-13_17-00-00.jpg",
+    "productCategories": ["uv-lacquer-bags", "cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 48*32*15, 30*24*10</p><p><b>Material:</b> cellulose cardboard 210g.</p><p><b>Print:</b> 5+0 (CMYK + Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> rep tape glued in</p><p>Selective UV varnish<br/>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 48*32*15, 302410</p><p><b>Материал:</b> картон целлюлозный 210г.</p><p><b>Печать:</b> 5+0 (CMYK + Pantone)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> лента репсовая вклеенная</p><p>Выборочный УФ лак<br/>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 48*32*15, 30*24*10</p><p><b>Матеріал:</b> картон целюлозний 210г.</p><p><b>Друк:</b> 5+0 (CMYK + Pantone)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> стрічка репсова вклеєна</p><p>Вибірковий УФ лак<br/>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/4_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 14*39*13</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 14*39*13</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 14*39*13</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/5_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*35*8, 32*40*10</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*35*8, 324010</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*35*8, 32*40*10</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/6_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*36*8, 36*25*20</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> satin ribbon tied</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*36*8, 362520</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> лента атласная завязанная</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*36*8, 36*25*20</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> стрічка атласна зав'язана</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/7_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*36*9, 22*22*12</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*36*9, 222212</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*36*9, 22*22*12</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/8_2024-10-13_17-00-00.jpg",
+    "productCategories": ["cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 30*24*10, 30*24*10</p><p><b>Material:</b> cardboard 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 30*24*10, 302410</p><p><b>Материал:</b> картон 170г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 30*24*10, 30*24*10</p><p><b>Матеріал:</b> картон 170г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/9_2024-10-13_17-00-00.jpg",
+    "productCategories": ["embossed-bags", "designer-paper-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 42*32*10, 24*25*10</p><p><b>Material:</b> designer paper 220g.</p><p><b>Embossing:</b> gold foil</p><p><b>Handles:</b> rep tape glued in</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 42*32*10, 242510</p><p><b>Материал:</b> дизайнерская бумага 220г.</p><p><b>Тиснение:</b> золотая фольга</p><p><b>Ручки:</b> лента репсовая вклеенная</p><p>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 42*32*10, 24*25*10</p><p><b>Матеріал:</b> дизайнерський папір 220г.</p><p><b>Тиснення:</b> золота фольга</p><p><b>Ручки:</b> стрічка репсова вклеєна</p><p>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/10_2024-10-13_17-00-00.jpg",
+    "productCategories": ["embossed-bags", "designer-paper-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 22*14*12</p><p><b>Material:</b> designer paper 170g.</p><p><b>Embossing:</b> gold foil</p><p><b>Handles:</b> rep tape glued in</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 22*14*12</p><p><b>Материал:</b> дизайнерская бумага 170г.</p><p><b>Тиснение:</b> золотая фольга</p><p><b>Ручки:</b> лента репсовая вклеенная</p><p>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 22*14*12</p><p><b>Матеріал:</b> дизайнерський папір 170г.</p><p><b>Тиснення:</b> золота фольга</p><p><b>Ручки:</b> стрічка репсова вклеєна</p><p>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/11_2024-10-13_17-00-00.jpg",
+    "productCategories": ["cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 24*36*9</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 24*36*9</p><p><b>Материал:</b> картон 210г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 24*36*9</p><p><b>Матеріал:</b> картон 210г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/12_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 55*40*15, 32*42*12</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 55*40*15, 324212</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 55*40*15, 32*42*12</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/13_2024-10-13_17-00-00.jpg",
+    "productCategories": ["designer-paper-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 40*30*15</p><p><b>Material:</b> offset 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 40*30*15</p><p><b>Материал:</b> офсет 170г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 40*30*15</p><p><b>Матеріал:</b> офсет 170г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/14_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> chalked paper 250g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*35*9</p><p><b>Материал:</b> бумага мелованная 250г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*35*9</p><p><b>Матеріал:</b> папір крейдований 250г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/15_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> chalked paper 250g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*32*8</p><p><b>Материал:</b> бумага мелованная 250г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Люверсы<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*32*8</p><p><b>Матеріал:</b> папір крейдований 250г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Люверси<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/16_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 27*30*15</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 27*30*15</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 27*30*15</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/17_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 40*37*11</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 40*37*11</p><p><b>Материал:</b> картон 210г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 40*37*11</p><p><b>Матеріал:</b> картон 210г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/18_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 20*30*7</p><p><b>Material:</b> chalked paper 250g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord with tip</p><p>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 20*30*7</p><p><b>Материал:</b> бумага мелованная 250г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур с наконечником</p><p>Люверсы<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 20*30*7</p><p><b>Матеріал:</b> папір крейдований 250г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур з наконечником</p><p>Люверси<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/19_2024-10-13_17-00-00.jpg",
+    "productCategories": ["cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 42*30*14</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 4+0 (CMYC)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 42*30*14</p><p><b>Материал:</b> картон 210г.</p><p><b>Печать:</b> 4+0 (CMYC)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 42*30*14</p><p><b>Матеріал:</b> картон 210г.</p><p><b>Друк:</b> 4+0 (CMYC)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/20_2024-10-13_17-00-00.jpg",
+    "productCategories": ["cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 32*40*12</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 32*40*12</p><p><b>Материал:</b> картон 210г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Люверсы<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 32*40*12</p><p><b>Матеріал:</b> картон 210г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Люверси<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/21_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*36*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*36*9</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*36*9</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/22_2024-10-13_17-00-00.jpg",
+    "productCategories": ["cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 30*40*10</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/> The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 30*40*10</p><p><b>Материал:</b> картон 210г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Пакет высеченный<br/> Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 30*40*10</p><p><b>Матеріал:</b> картон 210г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Пакет висічений<br/> Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/23_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 35*25*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 35*25*9</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 35*25*9</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/24_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*35*9</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*35*9</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/25_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*35*9</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*35*9</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/26_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 40*30*10</p><p><b>Material:</b> kraft brown 120g.</p><p><b>Print:</b> 1+0 (CMYK)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 40*30*10</p><p><b>Материал:</b> крафт коричневый 120г.</p><p><b>Печать:</b> 1+0 (CMYK)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 40*30*10</p><p><b>Матеріал:</b> крафт коричневий 120г.</p><p><b>Друк:</b> 1+0 (CMYK)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/27_2024-10-13_17-00-00.jpg",
+    "productCategories": ["embossed-bags", "cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*36*9</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 1+0 (Фон - срібло)</p><p><b>Lamination:</b> matte</p><p><b>Embossing:</b> blue foil</p><p><b>Handles:</b> cord</p><p>Eyelets<br/>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*36*9</p><p><b>Материал:</b> картон 210г.</p><p><b>Печать:</b> 1+0 (Фон - серебро)</p><p><b>Ламинация:</b> матовая</p><p><b>Тиснение:</b> синяя фольга</p><p><b>Ручки:</b> шнур</p><p>Люверсы<br/>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*36*9</p><p><b>Матеріал:</b> картон 210г.</p><p><b>Друк:</b> 1+0 (Фон - срібло)</p><p><b>Ламінація:</b> матова</p><p><b>Тиснення:</b> синя фольга</p><p><b>Ручки:</b> шнур</p><p>Люверси<br/>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/28_2024-10-13_17-00-00.jpg",
+    "productCategories": ["embossed-bags", "designer-paper-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 14*21*7</p><p><b>Material:</b> designer paper 170g.</p><p><b>Embossing:</b> silver foil + convection</p><p><b>Handles:</b> satin ribbon glued in</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 14*21*7</p><p<b>Материал:</b> дизайнерская бумага 170г.</p><p><b>Тиснение:</b> серебряная фольга + конгрев</p><p><b>Ручки:</b> лента атласная вклеенная</p><p>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 14*21*7</p><p><b>Матеріал:</b> дизайнерський папір 170г.</p><p><b>Тиснення:</b> срібна фольга + конгрев</p><p><b>Ручки:</b> стрічка атласна вклеєна</p><p>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/29_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 20*30*10</p><p><b>Material:</b> chalked paper 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>Eyelets silver<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 20*30*10</p><p><b>Материал:</b> бумага мелованная 170г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Люверсы серебряные<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 20*30*10</p><p><b>Матеріал:</b> папір крейдований 170г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Люверси срібні<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/30_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*36*9</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*36*9</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*36*9</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/31_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 22*32*12</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 22*32*12</p><p><b>Материал:</b> бумага мелованная 200г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 22*32*12</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/32_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> kraft white 110g.</p><p><b>Print:</b> 1+0 (CMYK)</p><p><b>Handles:</b> paper twists</p><p>The bottom is reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*32*8</p><p><b>Материал:</b> крафт белый 110г.</p><p><b>Печать:</b> 1+0 (CMYK)</p><p><b>Ручки:</b> бумажные крученые</p><p>Дно усилено картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*32*8</p><p><b>Матеріал:</b> крафт білий 110г.</p><p><b>Друк:</b> 1+0 (CMYK)</p><p><b>Ручки:</b> паперові кручені</p><p>Дно зміцнене картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/33_2024-10-13_17-00-00.jpg",
+    "productCategories": ["branded-folders"],
+    "productDescriptions": {
+      "en": "<h5>Folder description on photo</h5><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p>Self-assembled.<br/>With business card flap</p>",
+      "ru": "<h5>Описание папки на фото</h5><p><b>Размер:</b> А4</p><p><b>Материал:</b> картон 270г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p>Самосборная.<br/>С клапаном для визитки</p>",
+      "ua": "<h5>Опис теки на фото</h5><p><b>Розмір:</b> А4</p><p><b>Матеріал:</b> картон 270г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p>Самозбірна.<br/>З клапаном для візитівки</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/34_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 40*35*15</p><p><b>Material:</b> brown striped kraft 120g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 40*35*15</p><p><b>Материал:</b> крафт в полоску бурый 120г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 40*35*15</p><p><b>Матеріал:</b> крафт в смужку бурий 120г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/35_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 30*40*10</p><p><b>Material:</b> kraft white 120g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Handles:</b> paper twists</p><p>The bottom is reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 30*40*10</p><p><b>Материал:</b> крафт белый 120г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ручки:</b> бумажные крученые</p><p>Дно усилено картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 30*40*10</p><p><b>Матеріал:</b> крафт білий 120г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ручки:</b> паперові кручені</p><p>Дно зміцнене картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/36_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 34*30*14</p><p><b>Material:</b> kraft brown 100g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 34*30*14</p><p><b>Материал:</b> крафт коричневый 100г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 34*30*14</p><p><b>Матеріал:</b> крафт коричневий 100г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/37_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 20*32*10</p><p><b>Material:</b> kraft brown 120g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> paper twists</p><p>The bottom is reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 20*32*10</p><p><b>Материал:</b> крафт бурый 120г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> бумажные крученые</p><p>Дно усилено картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 20*32*10</p><p><b>Матеріал:</b> крафт бурий 120г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> паперові кручені</p><p>Дно зміцнене картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/38_2024-10-13_17-00-00.jpg",
+    "productCategories": ["gift-bags"],
+    "productDescriptions": {
+      "en": "<h5>Description of the package named \"Words\"</h5><p><b>Size:</b> 22*22*8</p><p><b>Material:</b> kraft brown 100g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета с названием \"Слова\"</h5><p><b>Размер:</b> 22*22*8</p><p><b>Материал:</b> крафт бурый 100г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета з назвою \"Слова\"</h5><p><b>Розмір:</b> 22*22*8</p><p><b>Матеріал:</b> крафт бурий 100г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/39_2024-10-13_17-00-00.jpg",
+    "productCategories": ["gift-bags"],
+    "productDescriptions": {
+      "en": "<h5>Description of the package named \"Towel\"</h5><p><b>Size:</b> 14*21*7</p><p><b>Material:</b> kraft brown 100g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета с названием \"Рушник\"</h5><p><b>Размер:</b> 14*21*7</p><p><b>Материал:</b> крафт бурый 100г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета з назвою \"Рушник\"</h5><p><b>Розмір:</b> 14*21*7</p><p><b>Матеріал:</b> крафт бурий 100г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/40_2024-10-13_17-00-00.jpg",
+    "productCategories": ["cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 40*33*20</p><p><b>Material:</b> cardboard 200g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>Block - gold<br/>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 40*33*20</p><p><b>Материал:</b> картон 200г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Блок - золото<br/>Пакет высеченный<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 40*33*20</p><p><b>Матеріал:</b> картон 200г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Блочка - золото<br/>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/41_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 20*30*10</p><p><b>Material:</b> kraft brown 70g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 20*30*10</p><p><b>Материал:</b> крафт бурый 70г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 20*30*10</p><p><b>Матеріал:</b> крафт бурий 70г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/42_2024-10-13_17-00-00.jpg",
+    "productCategories": ["designer-paper-bags", "embossed-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 30*40*10</p><p><b>Material:</b> blue ephalin 125g.</p><p><b>Embossing:</b> gold foil</p><p><b>Handles:</b> cord</p><p>Eyelets<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 30*40*10</p><p><b>Материал:</b> синий эфалин 125г.</p><p><b>Тиснение:</b> золотая фольга</p><p><b>Ручки:</b> шнур</p><p>Люверсы<br/>Дно и ручки усилены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 30*40*10</p><p><b>Матеріал:</b> синій ефалін 125г.</p><p><b>Тиснення:</b> золота фольга</p><p><b>Ручки:</b> шнур</p><p>Люверси<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/43_2024-10-13_17-00-00.jpg",
+    "productCategories": ["branded-folders"],
+    "productDescriptions": {
+      "en": "<h5>Folder description on photo</h5><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p>Self-assembled.<br/>With business card flap</p>",
+      "ru": "<h5>Описание папки на фото</h5><p><b>Размер:</b> A4</p><p><b>Материал:</b> картона 270г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p>Самосборная.<br/>С клапаном для визитки</p>",
+      "ua": "<h5>Опис теки на фото</h5><p><b>Розмір:</b> А4</p><p><b>Матеріал:</b> картон 270г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p>Самозбірна.<br/>З клапаном для візитівки</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/44_2024-10-13_17-00-00.jpg",
+    "productCategories": ["designer-paper-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> imitlin 125g.</p><p><b>Print:</b> 1+0 (Bronze)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*35*9</p><p><b>Материал:</b> имитлин 125г.</p><p><b>Печать:</b> 1+0 (Бронза)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*35*9</p><p><b>Матеріал:</b> імітлін 125г.</p><p><b>Друк:</b> 1+0 (Бронза)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/45_2024-10-13_17-00-00.jpg",
+    "productCategories": ["gift-bags"],
+    "productDescriptions": {
+      "en": "<h5>Description of the package with the name \"Ukraine is mine\"</h5><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> chalked paper 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета с названием \"Украина моя\"</h5><p><b>Размер:</b> 25*32*8</p><p><b>Материал:</b> бумага крейдованная 170г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета з назвою \"Україна моя\"</h5><p><b>Розмір:</b> 25*32*8</p><p><b>Матеріал:</b> папір крейдований 170г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/46_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 32*27*21</p><p><b>Material:</b> brown striped kraft 120g.</p><p><b>Handles:</b> cord</p><p>Business card made of designer paper 280g.<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 32*27*21</p><p><b>Материал:</b> крафт коричневый в полоску 120г.</p><p><b>Ручки:</b> шнур</p><p>Визитка из дизайнерской бумаги 280г.<br/>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 32*27*21</p><p><b>Матеріал:</b> крафт коричневий в сміжку 120г.</p><p><b>Ручки:</b> шнур</p><p>Візитівка з дизайнерського паперу 280г.<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/47_2024-10-13_17-00-00.jpg",
+    "productCategories": ["gift-bags"],
+    "productDescriptions": {
+      "en": "<h5>Description of the package with the name \"Rose mail\"</h5><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> chalked paper 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета с названием \"Роза почта\"</h5><p><b>Размер:</b> 25*32*8</p><p><b>Материал:</b> бумага крейдованная 170г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета з назвою \"Роза пошта\"</h5><p><b>Розмір:</b> 25*32*8</p><p><b>Матеріал:</b> папір крейдований 170г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/48_2024-10-13_17-00-00.jpg",
+    "productCategories": ["cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 22*23*12</p><p><b>Material:</b> cardboard 200g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The package is cut out<br/>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 22*23*12</p><p><b>Материал:</b> картона 200г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Пакет вырубленный<br/>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 22*23*12</p><p><b>Матеріал:</b> картон 200г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Пакет висічений<br/>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/49_2024-10-13_17-00-00.jpg",
+    "productCategories": ["gift-bags"],
+    "productDescriptions": {
+      "en": "<h5>Description of the package named \"Holiday\"</h5><p><b>Size:</b> 14*21*7</p><p><b>Material:</b> kraft brown 100g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета с названием \"Holiday\"</h5><p><b>Размер:</b> 14*21*7</p><p><b>Материал:</b> крафт коричневый 100г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета з назвою \"Holiday\"</h5><p><b>Розмір:</b> 14*21*7</p><p><b>Матеріал:</b> крафт бурий 100г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/50_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 28*35*10</p><p><b>Material:</b> kraft white 120g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Handles:</b> paper twists</p><p>The bottom is reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 28*35*10</p><p><b>Материал:</b> крафт белый 120г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ручки:</b> бумажные скрученные</p><p>Дно укреплено картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 28*35*10</p><p><b>Матеріал:</b> крафт білий 120г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ручки:</b> паперові кручені</p><p>Дно зміцнене картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/51_2024-10-13_17-00-00.jpg",
+    "productCategories": ["branded-folders"],
+    "productDescriptions": {
+      "en": "<h5>Folder description on photo</h5><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p>Self-assembled.<br/>With business card flap</p>",
+      "ru": "<h5>Описание папки на фото</h5><p><b>Размер:</b> A4</p><p><b>Материал:</b> картона 270г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p><p>Самосборная.<br/>С клапаном для визитки</p>",
+      "ua": "<h5>Опис теки на фото</h5><p><b>Розмір:</b> А4</p><p><b>Матеріал:</b> картон 270г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ламінація:</b> матова</p><p>Самозбірна.<br/>З клапаном для візитівки</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/52_2024-10-13_17-00-00.jpg",
+    "productCategories": ["designer-paper-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> ephaline flax 125g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*32*8</p><p><b>Материал:</b> эфалин лён 125г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*32*8</p><p><b>Матеріал:</b> ефалін льон 125г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/53_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*35*4</p><p><b>Material:</b> white striped kraft 120g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*35*4</p><p><b>Материал:</b> крафт белый в полоску 120г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*35*4</p><p><b>Матеріал:</b> крафт білий в смужку 120г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/54_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 40*33*20</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 40*33*20</p><p><b>Материал:</b> бумага крейдованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 40*33*20</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/55_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 24*35*9</p><p><b>Material:</b> white striped kraft 120g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 24*35*9</p><p><b>Материал:</b> крафт белый в полоску 120г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 24*35*9</p><p><b>Матеріал:</b> крафт білий в смужку 120г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/56_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 26*22*12</p><p><b>Material:</b> kraft brown 120g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 26*22*12</p><p><b>Материал:</b> крафт коричневый 120г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 26*22*12</p><p><b>Матеріал:</b> крафт бурий 120г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/57_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> kraft brown 120g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*35*9</p><p><b>Материал:</b> крафт коричневый 120г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*35*9</p><p><b>Матеріал:</b> крафт бурий 120г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/58_2024-10-13_17-00-00.jpg",
+    "productCategories": ["branded-folders"],
+    "productDescriptions": {
+      "en": "<h5>Folder description on photo</h5><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> matte</p><p>Self-assembled.<br/>With business card flap</p>",
+      "ru": "<h5>Описание папки на фото</h5><p><b>Размер:</b> A4</p><p><b>Материал:</b> картона 270г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> матовая</p><p>Самосборная.<br/>С клапаном для визитки</p>",
+      "ua": "<h5>Опис теки на фото</h5><p><b>Розмір:</b> А4</p><p><b>Матеріал:</b> картон 270г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> матова</p><p>Самозбірна.<br/>З клапаном для візитівки</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/59_2024-10-13_17-00-00.jpg",
+    "productCategories": ["branded-folders"],
+    "productDescriptions": {
+      "en": "<h5>Folder description on photo</h5><p><b>Size:</b> А4</p><p><b>Material:</b> design cardboard 320g.</p><p><b>Embossing:</b> gold foil</p>",
+      "ru": "<h5>Описание папки на фото</h5><p><b>Размер:</b> A4</p><p><b>Материал:</b> дизайнерский картона 320г.</p><p><b>Тиснение:</b> золотая фольга</p>",
+      "ua": "<h5>Опис теки на фото</h5><p><b>Розмір:</b> А4</p><p><b>Матеріал:</b> дизайнерський картон 320г.</p><p><b>Тиснення:</b> золота фольга</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/60_2024-10-13_17-00-00.jpg",
+    "productCategories": ["gift-bags"],
+    "productDescriptions": {
+      "en": "<h5>Description of the package named \"Peony\"</h5><p><b>Size:</b> 25*32*8</p><p><b>Material:</b> chalked paper 170g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета с названием \"Пион\"</h5><p><b>Размер:</b> 25*32*8</p><p><b>Материал:</b> бумага крейдованная 170г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета з назвою \"Півонія\"</h5><p><b>Розмір:</b> 25*32*8</p><p><b>Матеріал:</b> папір крейдований 170г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/61_2024-10-13_17-00-00.jpg",
+    "productCategories": ["branded-folders", "cardboard-bags"],
+    "productDescriptions": {
+      "en": "<h5>Description of the envelope in the photo</h5><p><b>Size:</b> 21*30 valve 7см., 32*38*5 valve 8см.</p><p><b>Material:</b> cardboard 210g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Lamination:</b> matte</p>",
+      "ru": "<h5>Описание конверта на фото</h5><p><b>Размер:</b> 21*30 клапан 7см., 32385 клапан 8см.</p><p><b>Материал:</b> картона 210г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p>",
+      "ua": "<h5>Опис конверта на фото</h5><p><b>Розмір:</b> 21*30 клапан 7см., 32*38*5 клапан 8см.</p><p><b>Матеріал:</b> картон 210г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ламінація:</b> матова</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/62_2024-10-13_17-00-00.jpg",
+    "productCategories": ["kraft-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 24*35*9</p><p><b>Material:</b> kraft white 110g.</p><p><b>Print:</b> 2+0 (Pantone)</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 24*35*9</p><p><b>Материал:</b> крафт белый 110г.</p><p><b>Печать:</b> 2+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 24*35*9</p><p><b>Матеріал:</b> крафт білий 110г.</p><p><b>Друк:</b> 2+0 (Pantone)</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/63_2024-10-13_17-00-00.jpg",
+    "productCategories": ["designer-paper-bags", "embossed-bags"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 25*35*9</p><p><b>Material:</b> ephaline 125g.</p><p><b>Print:</b> 1+0 (Black)</p><p><b>Embossing:</b> bronze on the back of the package + convection</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 25*35*9</p><p><b>Материал:</b> эфалин 125г.</p><p><b>Печать:</b> 1+0 (Черный)</p><p><b>Тиснение:</b> бронза на обороте пакета + конгрев</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 25*35*9</p><p><b>Матеріал:</b> ефалін 125г.</p><p><b>Друк:</b> 1+0 (Чорний)</p><p><b>Тиснення:</b> бронза на звороті пакету + конгрев</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/64_2024-10-13_17-00-00.jpg",
+    "productCategories": ["branded-folders"],
+    "productDescriptions": {
+      "en": "<h5>Folder description on photo</h5><p><b>Size:</b> А4</p><p><b>Material:</b> cardboard 270g.</p><p><b>Print:</b> 1+0 (Pantone)</p><p><b>Lamination:</b> matte</p><p><b>Embossing:</b> gold foil</p><p>Self-assembled.<br/>With business card flap</p>",
+      "ru": "<h5>Описание папки на фото</h5><p><b>Размер:</b> A4</p><p><b>Материал:</b> картона 270г.</p><p><b>Печать:</b> 1+0 (Pantone)</p><p><b>Ламинация:</b> матовая</p><p><b>Тиснение:</b> золотая фольга</p><p>Самосборная.<br/>С клапаном для визитки</p>",
+      "ua": "<h5>Опис теки на фото</h5><p><b>Розмір:</b> А4</p><p><b>Матеріал:</b> картон 270г.</p><p><b>Друк:</b> 1+0 (Pantone)</p><p><b>Ламінація:</b> матова</p><p><b>Тиснення:</b> золота фольга</p><p>Самозбірна.<br/>З клапаном для візитівки</p>"
+    },
+    "isLocked": false
+  },
+  {
+    "imageUrl": "http://localhost:5039/uploads/65_2024-10-13_17-00-00.jpg",
+    "productCategories": ["paper-bags-laminated"],
+    "productDescriptions": {
+      "en": "<h5>Package description on photo</h5><p><b>Size:</b> 32*25*10</p><p><b>Material:</b> chalked paper 200g.</p><p><b>Print:</b> 4+0 (CMYK)</p><p><b>Lamination:</b> glossy</p><p><b>Handles:</b> cord</p><p>The bottom and handles are reinforced with cardboard.</p>",
+      "ru": "<h5>Описание пакета на фото</h5><p><b>Размер:</b> 32*25*10</p><p><b>Материал:</b> бумага крейдованная 200г.</p><p><b>Печать:</b> 4+0 (CMYK)</p><p><b>Ламинация:</b> глянцевая</p><p><b>Ручки:</b> шнур</p><p>Дно и ручки укреплены картоном.</p>",
+      "ua": "<h5>Опис пакета на фото</h5><p><b>Розмір:</b> 32*25*10</p><p><b>Матеріал:</b> папір крейдований 200г.</p><p><b>Друк:</b> 4+0 (CMYK)</p><p><b>Ламінація:</b> глянцева</p><p><b>Ручки:</b> шнур</p><p>Дно та ручки зміцнені картоном.</p>"
+    },
+    "isLocked": false
+  }
+]

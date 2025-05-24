@@ -1,0 +1,144 @@
+<div *ngIf="isHeaderVisible">
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" [routerLink]="isAdmin ? '/admin' : '/'">
+          <img src="/images/logo.png" alt="" />
+          {{ isAdmin == true ? ("header.admin-brand" | translate) : ("header.brand" | translate) }}
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <ng-container *ngIf="!isAdmin">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/"
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                >
+                  {{ "header.home" | translate }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/about"
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                >
+                  {{ "header.about" | translate }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/example"
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: false }"
+                >
+                  {{ "header.example" | translate }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/contacts"
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                >
+                  {{ "header.contacts" | translate }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/delivery"
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                >
+                  {{ "header.delivery" | translate }}
+                </a>
+              </li>
+            </ng-container>
+
+            <ng-container *ngIf="isAdmin">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/admin"
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                >
+                  {{ "header.admin-home" | translate }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/admin/analytics"
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: false }"
+                >
+                  {{ "header.admin-analytics" | translate }}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/admin/products"
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: false }"
+                >
+                  {{ "header.admin-products" | translate }}
+                </a>
+              </li>
+              <ng-container *ngIf="isSuperAdmin">
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    routerLink="/admin/admins"
+                    routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true }"
+                  >
+                    {{ "header.admin-admins" | translate }}
+                  </a>
+                </li>
+              </ng-container>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  routerLink="/admin/profile"
+                  routerLinkActive="active"
+                  [routerLinkActiveOptions]="{ exact: true }"
+                >
+                  {{ "header.admin-profile" | translate }}
+                </a>
+              </li>
+            </ng-container>
+
+            <li class="nav-item">
+              <select class="form-select" (change)="onLanguageChange($event)">
+                <option value="ua" [selected]="translate.currentLang === 'ua'">Українська</option>
+                <option value="ru" [selected]="translate.currentLang === 'ru'">Русский</option>
+                <option value="en" [selected]="translate.currentLang === 'en'">English</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>

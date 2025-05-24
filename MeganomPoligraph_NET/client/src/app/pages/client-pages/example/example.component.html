@@ -1,0 +1,39 @@
+<div class="container mt-5 mb-3 centered-full-height example-container">
+  <h1>{{ currentHeader }}</h1>
+  <p class="mb-5" [innerHTML]="currentDescription"></p>
+
+  <div *ngIf="filteredItems.length > 0; else noProducts">
+    <div class="row">
+      <div *ngFor="let item of filteredItems" class="col-sm-6 col-md-6 col-lg-4 mb-3">
+        <div class="card">
+          <img
+            [src]="item.imageUrl"
+            (click)="showModal(item.imageUrl)"
+            class="card-img-top img-preview"
+            alt="Image"
+          />
+          <div class="card-body">
+            <pre class="card-text" [innerHTML]="item.productDescriptions[currentLanguage]"></pre>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="category !== ''" class="col-md-6 col-lg-4 mb-3">
+        <a routerLink="/example">
+          <div class="card card-view-all">
+            <h4>Переглянути усі приклади робіт</h4>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noProducts>
+    <p>Немає доступних робіт.</p>
+  </ng-template>
+</div>
+
+<app-image-modal
+  *ngIf="modalImageUrl"
+  [imageUrl]="modalImageUrl"
+  (closeModal)="closeModal()"
+></app-image-modal>

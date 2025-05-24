@@ -1,0 +1,327 @@
+[
+  {
+    "src": "/assets/images/bags/1.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-1"
+  },
+  {
+    "src": "/assets/images/bags/2.jpg",
+    "category": ["uv-lacquer-bags", "paper-bags-laminated"],
+    "description": "example.example-bag-description-2"
+  },
+  {
+    "src": "/assets/images/bags/3.jpg",
+    "category": ["uv-lacquer-bags", "cardboard-bags"],
+    "description": "example.example-bag-description-3"
+  },
+  {
+    "src": "/assets/images/bags/4.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-4"
+  },
+  {
+    "src": "/assets/images/bags/5.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-5"
+  },
+  {
+    "src": "/assets/images/bags/6.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-6"
+  },
+  {
+    "src": "/assets/images/bags/7.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-7"
+  },
+  {
+    "src": "/assets/images/bags/8.jpg",
+    "category": ["cardboard-bags"],
+    "description": "example.example-bag-description-8"
+  },
+  {
+    "src": "/assets/images/bags/9.jpg",
+    "category": ["embossed-bags", "designer-paper-bags"],
+    "description": "example.example-bag-description-9"
+  },
+  {
+    "src": "/assets/images/bags/10.jpg",
+    "category": ["embossed-bags", "designer-paper-bags"],
+    "description": "example.example-bag-description-10"
+  },
+  {
+    "src": "/assets/images/bags/11.jpg",
+    "category": ["cardboard-bags"],
+    "description": "example.example-bag-description-11"
+  },
+  {
+    "src": "/assets/images/bags/12.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-12"
+  },
+  {
+    "src": "/assets/images/bags/13.jpg",
+    "category": ["designer-paper-bags"],
+    "description": "example.example-bag-description-13"
+  },
+  {
+    "src": "/assets/images/bags/14.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-14"
+  },
+  {
+    "src": "/assets/images/bags/15.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-15"
+  },
+  {
+    "src": "/assets/images/bags/16.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-16"
+  },
+  {
+    "src": "/assets/images/bags/17.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-17"
+  },
+  {
+    "src": "/assets/images/bags/18.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-18"
+  },
+  {
+    "src": "/assets/images/bags/19.jpg",
+    "category": ["cardboard-bags"],
+    "description": "example.example-bag-description-19"
+  },
+  {
+    "src": "/assets/images/bags/20.jpg",
+    "category": ["cardboard-bags"],
+    "description": "example.example-bag-description-20"
+  },
+  {
+    "src": "/assets/images/bags/21.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-21"
+  },
+  {
+    "src": "/assets/images/bags/22.jpg",
+    "category": ["cardboard-bags"],
+    "description": "example.example-bag-description-22"
+  },
+  {
+    "src": "/assets/images/bags/23.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-23"
+  },
+  {
+    "src": "/assets/images/bags/24.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-24"
+  },
+  {
+    "src": "/assets/images/bags/25.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-25"
+  },
+  {
+    "src": "/assets/images/bags/26.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-26"
+  },
+  {
+    "src": "/assets/images/bags/27.jpg",
+    "category": ["embossed-bags", "cardboard-bags"],
+    "description": "example.example-bag-description-27"
+  },
+  {
+    "src": "/assets/images/bags/28.jpg",
+    "category": ["embossed-bags", "designer-paper-bags"],
+    "description": "example.example-bag-description-28"
+  },
+  {
+    "src": "/assets/images/bags/29.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-29"
+  },
+  {
+    "src": "/assets/images/bags/30.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-30"
+  },
+  {
+    "src": "/assets/images/bags/31.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-31"
+  },
+  {
+    "src": "/assets/images/bags/32.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-32"
+  },
+  {
+    "src": "/assets/images/bags/33.jpg",
+    "category": ["branded-folders"],
+    "description": "example.example-bag-description-33"
+  },
+  {
+    "src": "/assets/images/bags/34.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-34"
+  },
+  {
+    "src": "/assets/images/bags/35.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-35"
+  },
+  {
+    "src": "/assets/images/bags/36.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-36"
+  },
+  {
+    "src": "/assets/images/bags/37.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-37"
+  },
+  {
+    "src": "/assets/images/bags/38.jpg",
+    "category": ["gift-bags"],
+    "description": "example.example-bag-description-38"
+  },
+  {
+    "src": "/assets/images/bags/39.jpg",
+    "category": ["gift-bags"],
+    "description": "example.example-bag-description-39"
+  },
+  {
+    "src": "/assets/images/bags/40.jpg",
+    "category": ["cardboard-bags"],
+    "description": "example.example-bag-description-40"
+  },
+  {
+    "src": "/assets/images/bags/41.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-41"
+  },
+  {
+    "src": "/assets/images/bags/42.jpg",
+    "category": ["designer-paper-bags", "embossed-bags"],
+    "description": "example.example-bag-description-42"
+  },
+  {
+    "src": "/assets/images/bags/43.jpg",
+    "category": ["branded-folders"],
+    "description": "example.example-bag-description-43"
+  },
+  {
+    "src": "/assets/images/bags/44.jpg",
+    "category": ["designer-paper-bags"],
+    "description": "example.example-bag-description-44"
+  },
+  {
+    "src": "/assets/images/bags/45.jpg",
+    "category": ["gift-bags"],
+    "description": "example.example-bag-description-45"
+  },
+  {
+    "src": "/assets/images/bags/46.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-46"
+  },
+  {
+    "src": "/assets/images/bags/47.jpg",
+    "category": ["gift-bags"],
+    "description": "example.example-bag-description-47"
+  },
+  {
+    "src": "/assets/images/bags/48.jpg",
+    "category": ["cardboard-bags"],
+    "description": "example.example-bag-description-48"
+  },
+  {
+    "src": "/assets/images/bags/49.jpg",
+    "category": ["gift-bags"],
+    "description": "example.example-bag-description-49"
+  },
+  {
+    "src": "/assets/images/bags/50.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-50"
+  },
+  {
+    "src": "/assets/images/bags/51.jpg",
+    "category": ["branded-folders"],
+    "description": "example.example-bag-description-51"
+  },
+  {
+    "src": "/assets/images/bags/52.jpg",
+    "category": ["designer-paper-bags"],
+    "description": "example.example-bag-description-52"
+  },
+  {
+    "src": "/assets/images/bags/53.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-53"
+  },
+  {
+    "src": "/assets/images/bags/54.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-54"
+  },
+  {
+    "src": "/assets/images/bags/55.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-55"
+  },
+  {
+    "src": "/assets/images/bags/56.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-56"
+  },
+  {
+    "src": "/assets/images/bags/57.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-57"
+  },
+  {
+    "src": "/assets/images/bags/58.jpg",
+    "category": ["branded-folders"],
+    "description": "example.example-bag-description-58"
+  },
+  {
+    "src": "/assets/images/bags/59.jpg",
+    "category": ["branded-folders"],
+    "description": "example.example-bag-description-59"
+  },
+  {
+    "src": "/assets/images/bags/60.jpg",
+    "category": ["gift-bags"],
+    "description": "example.example-bag-description-60"
+  },
+  {
+    "src": "/assets/images/bags/61.jpg",
+    "category": ["branded-folders", "cardboard-bags"],
+    "description": "example.example-bag-description-61"
+  },
+  {
+    "src": "/assets/images/bags/62.jpg",
+    "category": ["kraft-bags"],
+    "description": "example.example-bag-description-62"
+  },
+  {
+    "src": "/assets/images/bags/63.jpg",
+    "category": ["designer-paper-bags", "embossed-bags"],
+    "description": "example.example-bag-description-63"
+  },
+  {
+    "src": "/assets/images/bags/64.jpg",
+    "category": ["branded-folders"],
+    "description": "example.example-bag-description-64"
+  },
+  {
+    "src": "/assets/images/bags/65.jpg",
+    "category": ["paper-bags-laminated"],
+    "description": "example.example-bag-description-65"
+  }
+]

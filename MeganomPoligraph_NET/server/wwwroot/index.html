@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meganom Poligraph Server</title>
+    <style>
+        :root {
+            --main-color: #ffffff;
+            --second-color: #f5f5f5;
+            --accent-color: #2498ee;
+            --hover-color: #1a75bb;
+            --text-color: #333333;
+            --disable-color: #999999;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--second-color);
+            color: var(--text-color);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: var(--accent-color);
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--main-color);
+            background-color: var(--accent-color);
+            padding: 12px 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            background-color: var(--hover-color);
+        }
+
+        .container {
+            background: var(--main-color);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>✅ Сервер працює!</h1>
+        <p>Посилання на проєкт:</p>
+        <div class="links">
+            <a href="/swagger/index.html">Swagger UI</a>
+            <a href="http://localhost:4200" target="_blank" rel="noopener noreferrer">Original Web Site</a>
+        </div>
+    </div>
+</body>
+
+</html>

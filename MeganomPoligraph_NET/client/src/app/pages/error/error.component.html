@@ -1,0 +1,24 @@
+<div class="container mt-5 mb-3 centered-full-height">
+  <div class="row w-100">
+    <div class="col-md-6 order-2 order-md-1">
+      <h2 class="mb-4">{{ error.title | translate }}</h2>
+      <p [innerHTML]="error.message | translate"></p>
+      <p>{{ error.subMessage | translate }}</p>
+      <div class="mt-4">
+        <a href="/" class="btn btn-primary w-100">{{ error.homeButton | translate }}</a>
+        <br />
+        <a href="javascript:history.back()" class="btn btn-secondary w-100 mt-2">
+          {{ error.backButton | translate }}
+        </a>
+      </div>
+    </div>
+    <div class="col-md-6 order-1 order-md-2 text-center">
+      <img
+        src="https://img.icons8.com/ios/452/error.png"
+        alt="Error icon"
+        style="width: 150px; height: 150px"
+      />
+      <h1 class="display-3 text-danger">{{ getErrorCode() }}</h1>
+    </div>
+  </div>
+</div>

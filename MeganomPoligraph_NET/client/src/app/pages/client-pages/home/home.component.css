@@ -1,0 +1,249 @@
+.home-hero-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/images/hero-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--dark-blue-color);
+  text-shadow: var(--main-color) 1px 0 10px;
+}
+
+.home-hero a {
+  color: var(--dark-blue-color);
+  text-decoration: underline;
+}
+
+.home-hero-text {
+  width: 75%;
+}
+
+#scroll-button {
+  position: absolute;
+  bottom: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#scroll-button .scroll-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#scroll-button .arrow {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-left: 3px solid var(--main-color);
+  border-top: 3px solid var(--main-color);
+  transform: rotate(-135deg) translateY(-50%);
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0) rotate(-135deg);
+  }
+
+  40% {
+    transform: translateY(-10px) rotate(-135deg);
+  }
+
+  60% {
+    transform: translateY(-5px) rotate(-135deg);
+  }
+}
+
+.home-services-container {
+  min-height: calc(100dvh - 62px);
+  height: auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-services-container a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.home-services-item {
+  padding: 16px 24px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  max-width: 100%;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  background-color: var(--main-color);
+}
+
+.home-services-item img {
+  width: 75px;
+  height: auto;
+  margin-right: 16px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.home-services-item h5 {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.home-services-item p {
+  font-size: 0.875em;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.home-services-item:hover {
+  transform: scale(1.01);
+  border-radius: 25px;
+  box-shadow: 0 0 25px var(--disable-color);
+}
+
+.home-contact-wrap {
+  width: 100%;
+  background-color: var(--second-color);
+}
+
+.home-contact-container {
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.home-contact-container h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--second-color);
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+.invalid-feedback {
+  font-size: 0.875rem;
+  color: var(--danger-color);
+  display: none;
+}
+
+.form-group input:invalid + .invalid-feedback,
+.form-group select:invalid + .invalid-feedback,
+.form-group textarea:invalid + .invalid-feedback {
+  display: block;
+}
+
+button[type="submit"] {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+button[type="submit"]:hover {
+  filter: opacity(0.75);
+}
+
+.submit-result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-result {
+  text-align: start;
+  visibility: hidden;
+  transition:
+    visibility 0.5s,
+    opacity 0.5s;
+}
+
+.submit-result.contact-success {
+  visibility: visible;
+  opacity: 1;
+  color: var(--success-color);
+}
+
+.submit-result.contact-error {
+  visibility: visible;
+  opacity: 1;
+  color: var(--danger-color);
+}
+
+@media (max-width: 768px) {
+  .home-hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-hero-text h5 {
+    font-size: 1.25rem;
+  }
+
+  .home-services-item {
+    margin-bottom: 15px;
+  }
+
+  .home-contact-container {
+    padding: 30px 15px;
+  }
+}

@@ -1,0 +1,106 @@
+<div class="requests-container">
+  <div class="container full-height mb-3 mt-5 pt-5">
+    <div class="mb-4 requests-header">
+      <h1>{{ "requests.requests-header" | translate }}</h1>
+      <div class="requests-header-actions">
+        <select (change)="onSortOrderChange($event)">
+          <option value="desc">
+            {{ "requests.requests-newest" | translate }}
+          </option>
+          <option value="asc">
+            {{ "requests.requests-oldest" | translate }}
+          </option>
+        </select>
+        <div>
+          <label for="showOnlyNew">{{ "requests.requests-show-only-new" | translate }}</label>
+          <input type="checkbox" name="showOnlyNew" id="showOnlyNew" [(ngModel)]="showOnlyNew"
+            (change)="onShowOnlyNewChange()" />
+        </div>
+        <div>
+          <label for="showOnlyMy">{{ "requests.requests-show-only-my" | translate }}</label>
+          <input type="checkbox" name="showOnlyMy" id="showOnlyMy" [(ngModel)]="showOnlyMy"
+            (change)="onShowOnlyMyChange()" />
+        </div>
+      </div>
+    </div>
+
+    <div class="request-card-container" *ngIf="requests.length > 0; else noRequests">
+      <div *ngFor="let request of requests" class="request-card">
+        <div class="request-card-content">
+          <div class="request-description">
+            <p><b>{{ "requests.requests-name" | translate }}:</b> {{ request.name }}</p>
+            <p><b>{{ "requests.requests-phone" | translate }}:</b> {{ request.phone }}</p>
+            <p><b>{{ "requests.requests-email" | translate }}:</b> {{ request.email }}</p>
+            <p><b>{{ "requests.requests-createdAt" | translate }}:</b> {{ request.createdAt | date: "HH:mm (dd.MM.yyyy)"
+              }}</p>
+            <p><b>{{ "requests.requests-status-label" | translate }}</b>
+              <span [ngClass]="{
+                  'success-text': request.status === 'Done',
+                  'danger-text': request.status === 'Rejected',
+                  'warning-text': request.status === 'InProgress'
+                }">
+                {{ 'requests.requests-status-' + (request.status === 'InProgress' ? 'in-progress' : request.status |
+                lowercase) | translate }}
+              </span>
+              <span *ngIf="request.assignedAdmin">{{ ' (' + request.assignedAdmin + ')' }}</span>
+            </p>
+          </div>
+        </div>
+        <div class="request-actions">
+          <label for="status">{{ "requests.requests-status-label" | translate }}</label>
+          <select id="status" name="status" [(ngModel)]="request.status"
+            (change)="updateRequestStatus(request.id, request.status)">
+            <option value="New">{{ "requests.requests-status-new" | translate }}</option>
+            <option value="InProgress">{{ "requests.requests-status-in-progress" | translate }}</option>
+            <option value="Done">{{ "requests.requests-status-done" | translate }}</option>
+            <option value="Rejected">{{ "requests.requests-status-rejected" | translate }}</option>
+          </select>
+          <button class="btn-primary" (click)="openRequestDetails(request)">
+            {{ "requests.requests-view" | translate }} <i class="bi bi-eye"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <ng-template #noRequests>
+      <p>Запитів не знайдено.</p>
+    </ng-template>
+  </div>
+
+  <div class="modal-overlay" *ngIf="isDetailsModalOpen" (click)="closeModal()">
+    <div class="details-profile-modal" (click)="$event.stopPropagation()">
+      <h2>{{ "requests.requests-view" | translate }}</h2>
+      <p>
+        <b>{{ "requests.requests-name" | translate }}:</b>
+        {{ selectedRequest?.name }}
+      </p>
+      <p>
+        <b>{{ "requests.requests-email" | translate }}:</b>
+        {{ selectedRequest?.email }}
+      </p>
+      <p>
+        <b>{{ "requests.requests-phone" | translate }}:</b>
+        {{ selectedRequest?.phone }}
+      </p>
+      <p>
+        <b>{{ "requests.requests-language" | translate }}:</b>
+        {{ selectedRequest?.language }}
+      </p>
+      <p>
+        <b>{{ "requests.requests-createdAt" | translate }}:</b>
+        {{
+        selectedRequest?.createdAt
+        | date
+        : "HH:mm (dd.MM.yyyy)"
+        }}
+      </p>
+      <p><b>{{ "requests.requests-modal-circulation" | translate }}:</b> {{ selectedRequest?.circulation }}</p>
+      <p><b>{{ "requests.requests-modal-embossing" | translate }}:</b> {{ selectedRequest?.embossing }}</p>
+      <p><b>{{ "requests.requests-modal-size" | translate }}:</b> {{ selectedRequest?.size }}</p>
+      <p><b>{{ "requests.requests-modal-material" | translate }}:</b> {{ selectedRequest?.material }}</p>
+      <p><b>{{ "requests.requests-modal-type" | translate }}:</b> {{ selectedRequest?.type }}</p>
+      <p><b>{{ "requests.requests-modal-print" | translate }}:</b> {{ selectedRequest?.print }}</p>
+      <p><b>{{ "requests.requests-modal-notes" | translate }}:</b> {{ selectedRequest?.notes }}</p>
+    </div>
+  </div>
+</div>

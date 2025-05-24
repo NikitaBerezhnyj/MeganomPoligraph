@@ -1,0 +1,6 @@
+<div class="image-modal" *ngIf="imageUrl" (click)="close($event)">
+  <div class="image-modal-content">
+    <img [src]="imageUrl" alt="Full view" />
+    <span class="image-modal-close" (click)="closeOnCross($event)">&times;</span>
+  </div>
+</div>
